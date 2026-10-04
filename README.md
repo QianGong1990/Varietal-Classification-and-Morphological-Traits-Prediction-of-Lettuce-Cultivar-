@@ -4,12 +4,45 @@ Dataset, training pipeline, data split, model architectures and best trained mod
 for (1) classifying four lettuce cultivars and (2) predicting morphological traits
 (leaf area, diameter, fresh and dry shoot weight) from top-view RGB images.
 
+## Original dataset
+The images and ground-truth measurements are **secondary data**, publicly available in the
+4TU.ResearchData repository:
+
+> Hemming, S., de Zwart, H.F., Elings, A., Bijlaard, M., van Marrewijk, B., & Petropoulou, A.
+> (2021). *3rd Autonomous Greenhouse Challenge: Online Challenge Lettuce Images* (Version 1)
+> [Data set]. 4TU.ResearchData. https://doi.org/10.4121/15023088.v1
+
+Available at https://data.4tu.nl/articles/_/15023088/1. The data were generated for the 3rd
+International Autonomous Greenhouse Challenge at the Wageningen University & Research
+Greenhouse Horticulture Business Unit (Bleiswijk, The Netherlands, 2021). They are
+redistributed here under the original
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+license. Please cite the original dataset when using it.
+
+Differences from the original release:
+- `RGBImages/` and `GroundTruth_All_388_Images.json` are taken from the original dataset.
+- The 388 depth images of the original release are not included.
+- `GroundTruth_All_388_Images.csv`, `binary_masks/` and `split/` were created in this study.
+
+```bibtex
+@misc{hemming2021lettuce,
+  author    = {Hemming, Silke and de Zwart, H. F. and Elings, Anne and Bijlaard, Monique
+               and van Marrewijk, Bart and Petropoulou, Anna},
+  title     = {3rd Autonomous Greenhouse Challenge: Online Challenge Lettuce Images},
+  year      = {2021},
+  publisher = {4TU.ResearchData},
+  version   = {1},
+  doi       = {10.4121/15023088.v1},
+  url       = {https://data.4tu.nl/articles/_/15023088/1}
+}
+```
+
 ## Repository contents
 | Path | Contents |
 |---|---|
-| `dataset/RGBImages/` | 388 raw top-view RGB images (`RGB_<id>.png`, 1920×1080) |
+| `dataset/RGBImages/` | 388 raw top-view RGB images (`RGB_<id>.png`, 1920×1080), from the original dataset |
 | `dataset/binary_masks/` | Full-resolution plant/background masks for each image |
-| `dataset/GroundTruth_All_388_Images.json` | Original ground-truth file (read by the pipeline) |
+| `dataset/GroundTruth_All_388_Images.json` | Ground-truth file from the original dataset (read by the pipeline) |
 | `dataset/GroundTruth_All_388_Images.csv` | Same measurements as a table, one row per image |
 | `dataset/split/dataset_split.xlsx` / `.csv` | Train/valid/test assignment of every image |
 | `remove_background.py`, `resize_dataset.py`, `run_augmentation.py`, `preview_augmentation.py` | Preprocessing |

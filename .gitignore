@@ -7,7 +7,6 @@
 !/remove_background.py
 !/resize_dataset.py
 !/run_augmentation.py
-!/preview_augmentation.py
 
 !/training/
 /training/__pycache__/
@@ -37,3 +36,8 @@
 /results/classification/model_weights/*
 !/results/classification/model_weights/SimpleCNN_segmented_best.pth
 /training/submit_*.sh
+/training/gradcam.py
+/training/run_gradcam.py
+/training/occlusion_test.py
+/training/export_*.py
+/training/plot_scatter_panel.py

@@ -45,8 +45,8 @@ Differences from the original release:
 | `dataset/GroundTruth_All_388_Images.json` | Ground-truth file from the original dataset (read by the pipeline) |
 | `dataset/GroundTruth_All_388_Images.csv` | Same measurements as a table, one row per image |
 | `dataset/split/dataset_split.xlsx` / `.csv` | Train/valid/test assignment of every image |
-| `remove_background.py`, `resize_dataset.py`, `run_augmentation.py`, `preview_augmentation.py` | Preprocessing |
-| `training/` | Training and evaluation pipeline (PyTorch) |
+| `remove_background.py`, `resize_dataset.py`, `run_augmentation.py` | Preprocessing |
+| `training/` | Training pipeline (PyTorch): regression, classification, 5-fold CV, ML baselines |
 | `training/models.py` | The five architectures used |
 | `results/normalization_params.json` | Pixel and target normalization used in training |
 | `results/*/model_weights/`, `results/onnx/` | Best trained models (Git LFS) |

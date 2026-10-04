@@ -1,0 +1,26 @@
+# Whitelist: repo contains only the raw dataset, ground-truth CSV and best models
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+
+!/dataset/
+/dataset/*
+!/dataset/RGBImages/
+!/dataset/GroundTruth_All_388_Images.csv
+
+!/results/
+/results/*
+!/results/onnx/
+!/results/regression/
+/results/regression/*
+!/results/regression/model_weights/
+/results/regression/model_weights/*
+!/results/regression/model_weights/InceptionResNetV2_rgb_best.pth
+!/results/regression/model_weights/InceptionResNetV2_segmented_best.pth
+!/results/regression/model_weights/SimpleCNN_rgb_best.pth
+!/results/classification/
+/results/classification/*
+!/results/classification/model_weights/
+/results/classification/model_weights/*
+!/results/classification/model_weights/SimpleCNN_segmented_best.pth

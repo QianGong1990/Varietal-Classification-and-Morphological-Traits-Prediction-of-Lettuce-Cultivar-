@@ -1,0 +1,3971 @@
+{
+	"General" : {
+		"ExperimentInfo" : "This dataset contains references to images and measured data on a lettuce crop growing in well controlled greenhouse conditions. There are 4 varieties and samples of the crop are destructively measured in a 7 days interval.",
+		"Varieties" : "Aphylion, Salanova, Satine, Lugano",
+		"Measurements" : {
+			"RGBImage" : {
+				"Info" : "Reference to a png-file with the rgb-image data",
+				"Unit" : "-"
+			},
+			"DebthInformation" : {
+				"Info" : "Reference to a file (with png-extension) that holds xyz-information for each pixel from the top view",
+				"Unit" : "-"
+			},
+			"FreshWeightShoot" : {
+				"Info" : "A head of lettuce, harvested from a hydroponic cultivation system has two parts, the 'root' and the 'shoot' The 'shoot' is the top part, being the edable part of the plant, starting at the attachment point of the first leaves",
+				"Unit" : "gram/plant"
+			},
+			"Height" : {
+				"Info" : "The height of the highest part of the plant, measured from the attachment point of the first leaves.",
+				"Unit" : "cm"
+			},
+			"Diameter" : {
+				"Info" : "The principal diameter of the projection of the lettuce plant on a horizontal surface",
+				"Unit" : "cm"
+			},
+			"LeafArea" : {
+				"Info" : "For the destructive measurements, leaves are torn from the stem and their surface projected on a horizontal surface are marked as LeafArea. Note that curly leaves in realitiy will have a notable larger area if all curvatures would be straighted. Obviously, the additional surface in these curvatures is discarded with this measurement.",
+				"Unit" : "cm2"
+			},
+			"DryWeightShoot" : {
+				"Info" : "After the fresh wait of all above ground parts is weighed and measured, all tissue is dried in a dry-oven. After 3 days of drying the remaining weight is mesured as dry weight of the shoot",
+				"Unit" : "gram/plant"
+			}
+		},
+		"Camera" : {
+			"Info" : "All images are obtained with a realsense camera type:\t",
+			"DeviceID" : "002422060160",
+			"DepthScale" : 0.00100000004749745,
+			"depth_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"color_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"ir_int" : {
+				"height" : 720,
+				"width" : 1280,
+				"ppx" : 637.933654785156,
+				"ppy" : 347.102325439453,
+				"fx" : 889.749572753906,
+				"fy" : 889.749572753906,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.brown_conrady"
+			},
+			"depth_to_color_ext" : {
+				"rotation" : [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0 ],
+				"translation" : [ 0.0, 0.0, 0.0 ]
+			},
+			"ir_to_color_ext" : {
+				"rotation" : [
+					0.999989449977875,
+					-0.00311925541609526,
+					0.00337212649174035,
+					0.00313232676126063,
+					0.999987602233887,
+					-0.00387795572169125,
+					-0.00335998833179474,
+					0.00388847757130861,
+					0.99998676776886
+				],
+				"translation" : [ 0.0151169626042247, -2.81767242995556e-05, -0.000219923706026748 ]
+			}
+		}
+	},
+	"Measurements" : {
+		"Image27" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_27.png",
+			"Depth_Information" : "Depth_27.png",
+			"FreshWeightShoot" : 5.5,
+			"DryWeightShoot" : 0.42,
+			"Height" : 9.0,
+			"Diameter" : 11.0,
+			"LeafArea" : 153.9
+		},
+		"Image79" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_79.png",
+			"Depth_Information" : "Depth_79.png",
+			"FreshWeightShoot" : 30.3,
+			"DryWeightShoot" : 1.92,
+			"Height" : 8.8,
+			"Diameter" : 20.2,
+			"LeafArea" : 582.3
+		},
+		"Image140" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_140.png",
+			"Depth_Information" : "Depth_140.png",
+			"FreshWeightShoot" : 60.9,
+			"DryWeightShoot" : 2.83,
+			"Height" : 11.6,
+			"Diameter" : 19.0,
+			"LeafArea" : 960.6
+		},
+		"Image203" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_203.png",
+			"Depth_Information" : "Depth_203.png",
+			"FreshWeightShoot" : 112.0,
+			"DryWeightShoot" : 5.76,
+			"Height" : 11.0,
+			"Diameter" : 22.0,
+			"LeafArea" : 1614.9
+		},
+		"Image292" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_292.png",
+			"Depth_Information" : "Depth_292.png",
+			"FreshWeightShoot" : 372.6,
+			"DryWeightShoot" : 14.17,
+			"Height" : 17.0,
+			"Diameter" : 32.0,
+			"LeafArea" : 3839.6
+		},
+		"Image38" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_38.png",
+			"Depth_Information" : "Depth_38.png",
+			"FreshWeightShoot" : 4.7,
+			"DryWeightShoot" : 0.49,
+			"Height" : 7.2,
+			"Diameter" : 16.0,
+			"LeafArea" : 156.7
+		},
+		"Image97" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_97.png",
+			"Depth_Information" : "Depth_97.png",
+			"FreshWeightShoot" : 18.6,
+			"DryWeightShoot" : 1.62,
+			"Height" : 5.7,
+			"Diameter" : 19.5,
+			"LeafArea" : 578.2
+		},
+		"Image157" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_157.png",
+			"Depth_Information" : "Depth_157.png",
+			"FreshWeightShoot" : 47.1,
+			"DryWeightShoot" : 2.59,
+			"Height" : 12.8,
+			"Diameter" : 26.2,
+			"LeafArea" : 1321.3
+		},
+		"Image218" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_218.png",
+			"Depth_Information" : "Depth_218.png",
+			"FreshWeightShoot" : 96.0,
+			"DryWeightShoot" : 4.81,
+			"Height" : 11.0,
+			"Diameter" : 27.0,
+			"LeafArea" : 2153.6
+		},
+		"Image317" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_317.png",
+			"Depth_Information" : "Depth_317.png",
+			"FreshWeightShoot" : 187.4,
+			"DryWeightShoot" : 8.76,
+			"Height" : 14.5,
+			"Diameter" : 29.0,
+			"LeafArea" : 3369.7
+		},
+		"Image47" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_47.png",
+			"Depth_Information" : "Depth_47.png",
+			"FreshWeightShoot" : 4.5,
+			"DryWeightShoot" : 0.45,
+			"Height" : 6.3,
+			"Diameter" : 11.0,
+			"LeafArea" : 105.0
+		},
+		"Image48" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_48.png",
+			"Depth_Information" : "Depth_48.png",
+			"FreshWeightShoot" : 4.2,
+			"DryWeightShoot" : 0.37,
+			"Height" : 6.5,
+			"Diameter" : 15.7,
+			"LeafArea" : 105.7
+		},
+		"Image49" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_49.png",
+			"Depth_Information" : "Depth_49.png",
+			"FreshWeightShoot" : 7.1,
+			"DryWeightShoot" : 0.63,
+			"Height" : 7.5,
+			"Diameter" : 13.4,
+			"LeafArea" : 140.8
+		},
+		"Image50" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_50.png",
+			"Depth_Information" : "Depth_50.png",
+			"FreshWeightShoot" : 6.7,
+			"DryWeightShoot" : 0.53,
+			"Height" : 7.0,
+			"Diameter" : 16.0,
+			"LeafArea" : 162.5
+		},
+		"Image52" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_52.png",
+			"Depth_Information" : "Depth_52.png",
+			"FreshWeightShoot" : 6.8,
+			"DryWeightShoot" : 0.5,
+			"Height" : 7.8,
+			"Diameter" : 14.6,
+			"LeafArea" : 158.9
+		},
+		"Image53" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_53.png",
+			"Depth_Information" : "Depth_53.png",
+			"FreshWeightShoot" : 8.6,
+			"DryWeightShoot" : 0.86,
+			"Height" : 5.8,
+			"Diameter" : 19.6,
+			"LeafArea" : 196.5
+		},
+		"Image100" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_100.png",
+			"Depth_Information" : "Depth_100.png",
+			"FreshWeightShoot" : 23.2,
+			"DryWeightShoot" : 1.23,
+			"Height" : 7.1,
+			"Diameter" : 20.0,
+			"LeafArea" : 475.0
+		},
+		"Image101" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_101.png",
+			"Depth_Information" : "Depth_101.png",
+			"FreshWeightShoot" : 24.9,
+			"DryWeightShoot" : 1.79,
+			"Height" : 6.5,
+			"Diameter" : 16.0,
+			"LeafArea" : 486.3
+		},
+		"Image104" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_104.png",
+			"Depth_Information" : "Depth_104.png",
+			"FreshWeightShoot" : 27.9,
+			"DryWeightShoot" : 1.76,
+			"Height" : 6.6,
+			"Diameter" : 19.5,
+			"LeafArea" : 520.0
+		},
+		"Image107" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_107.png",
+			"Depth_Information" : "Depth_107.png",
+			"FreshWeightShoot" : 20.8,
+			"DryWeightShoot" : 1.15,
+			"Height" : 7.3,
+			"Diameter" : 15.0,
+			"LeafArea" : 436.8
+		},
+		"Image108" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_108.png",
+			"Depth_Information" : "Depth_108.png",
+			"FreshWeightShoot" : 24.5,
+			"DryWeightShoot" : 1.7,
+			"Height" : 8.1,
+			"Diameter" : 16.3,
+			"LeafArea" : 543.5
+		},
+		"Image109" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_109.png",
+			"Depth_Information" : "Depth_109.png",
+			"FreshWeightShoot" : 27.8,
+			"DryWeightShoot" : 1.84,
+			"Height" : 8.2,
+			"Diameter" : 20.6,
+			"LeafArea" : 637.7
+		},
+		"Image110" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_110.png",
+			"Depth_Information" : "Depth_110.png",
+			"FreshWeightShoot" : 22.9,
+			"DryWeightShoot" : 1.42,
+			"Height" : 7.8,
+			"Diameter" : 16.8,
+			"LeafArea" : 513.1
+		},
+		"Image111" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_111.png",
+			"Depth_Information" : "Depth_111.png",
+			"FreshWeightShoot" : 38.2,
+			"DryWeightShoot" : 2.25,
+			"Height" : 10.3,
+			"Diameter" : 20.6,
+			"LeafArea" : 831.8
+		},
+		"Image112" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_112.png",
+			"Depth_Information" : "Depth_112.png",
+			"FreshWeightShoot" : 31.3,
+			"DryWeightShoot" : 2.11,
+			"Height" : 8.4,
+			"Diameter" : 17.8,
+			"LeafArea" : 670.9
+		},
+		"Image113" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_113.png",
+			"Depth_Information" : "Depth_113.png",
+			"FreshWeightShoot" : 24.9,
+			"DryWeightShoot" : 2.09,
+			"Height" : 7.5,
+			"Diameter" : 18.6,
+			"LeafArea" : 518.4
+		},
+		"Image114" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_114.png",
+			"Depth_Information" : "Depth_114.png",
+			"FreshWeightShoot" : 26.7,
+			"DryWeightShoot" : 2.24,
+			"Height" : 7.0,
+			"Diameter" : 20.1,
+			"LeafArea" : 561.3
+		},
+		"Image115" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_115.png",
+			"Depth_Information" : "Depth_115.png",
+			"FreshWeightShoot" : 32.3,
+			"DryWeightShoot" : 2.05,
+			"Height" : 9.2,
+			"Diameter" : 21.5,
+			"LeafArea" : 679.4
+		},
+		"Image164" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_164.png",
+			"Depth_Information" : "Depth_164.png",
+			"FreshWeightShoot" : 94.0,
+			"DryWeightShoot" : 4.48,
+			"Height" : 13.4,
+			"Diameter" : 21.9,
+			"LeafArea" : 1670.0
+		},
+		"Image165" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_165.png",
+			"Depth_Information" : "Depth_165.png",
+			"FreshWeightShoot" : 62.7,
+			"DryWeightShoot" : 2.85,
+			"Height" : 13.5,
+			"Diameter" : 20.1,
+			"LeafArea" : 1106.1
+		},
+		"Image166" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_166.png",
+			"Depth_Information" : "Depth_166.png",
+			"FreshWeightShoot" : 99.7,
+			"DryWeightShoot" : 4.59,
+			"Height" : 13.9,
+			"Diameter" : 22.0,
+			"LeafArea" : 1678.9
+		},
+		"Image167" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_167.png",
+			"Depth_Information" : "Depth_167.png",
+			"FreshWeightShoot" : 72.8,
+			"DryWeightShoot" : 3.99,
+			"Height" : 11.3,
+			"Diameter" : 19.4,
+			"LeafArea" : 1221.1
+		},
+		"Image168" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_168.png",
+			"Depth_Information" : "Depth_168.png",
+			"FreshWeightShoot" : 74.3,
+			"DryWeightShoot" : 3.46,
+			"Height" : 13.1,
+			"Diameter" : 19.5,
+			"LeafArea" : 1318.9
+		},
+		"Image170" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_170.png",
+			"Depth_Information" : "Depth_170.png",
+			"FreshWeightShoot" : 60.1,
+			"DryWeightShoot" : 4.02,
+			"Height" : 11.0,
+			"Diameter" : 20.3,
+			"LeafArea" : 1073.6
+		},
+		"Image173" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_173.png",
+			"Depth_Information" : "Depth_173.png",
+			"FreshWeightShoot" : 44.9,
+			"DryWeightShoot" : 2.02,
+			"Height" : 12.4,
+			"Diameter" : 16.9,
+			"LeafArea" : 915.1
+		},
+		"Image174" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_174.png",
+			"Depth_Information" : "Depth_174.png",
+			"FreshWeightShoot" : 83.5,
+			"DryWeightShoot" : 4.34,
+			"Height" : 12.0,
+			"Diameter" : 19.5,
+			"LeafArea" : 1469.7
+		},
+		"Image177" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_177.png",
+			"Depth_Information" : "Depth_177.png",
+			"FreshWeightShoot" : 79.8,
+			"DryWeightShoot" : 3.81,
+			"Height" : 12.1,
+			"Diameter" : 22.1,
+			"LeafArea" : 1460.4
+		},
+		"Image178" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_178.png",
+			"Depth_Information" : "Depth_178.png",
+			"FreshWeightShoot" : 82.9,
+			"DryWeightShoot" : 3.82,
+			"Height" : 15.0,
+			"Diameter" : 20.5,
+			"LeafArea" : 1529.5
+		},
+		"Image219" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_219.png",
+			"Depth_Information" : "Depth_219.png",
+			"FreshWeightShoot" : 149.0,
+			"DryWeightShoot" : 6.85,
+			"Height" : 15.0,
+			"Diameter" : 23.0,
+			"LeafArea" : 2255.6
+		},
+		"Image222" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_222.png",
+			"Depth_Information" : "Depth_222.png",
+			"FreshWeightShoot" : 114.0,
+			"DryWeightShoot" : 5.51,
+			"Height" : 16.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 1878.4
+		},
+		"Image223" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_223.png",
+			"Depth_Information" : "Depth_223.png",
+			"FreshWeightShoot" : 163.0,
+			"DryWeightShoot" : 6.82,
+			"Height" : 15.0,
+			"Diameter" : 26.0,
+			"LeafArea" : 2453.6
+		},
+		"Image224" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_224.png",
+			"Depth_Information" : "Depth_224.png",
+			"FreshWeightShoot" : 97.0,
+			"DryWeightShoot" : 4.84,
+			"Height" : 12.0,
+			"Diameter" : 25.0,
+			"LeafArea" : 2224.8
+		},
+		"Image225" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_225.png",
+			"Depth_Information" : "Depth_225.png",
+			"FreshWeightShoot" : 157.0,
+			"DryWeightShoot" : 7.16,
+			"Height" : 14.0,
+			"Diameter" : 22.0,
+			"LeafArea" : 2502.9
+		},
+		"Image226" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_226.png",
+			"Depth_Information" : "Depth_226.png",
+			"FreshWeightShoot" : 106.0,
+			"DryWeightShoot" : 4.99,
+			"Height" : 16.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 3350.6
+		},
+		"Image227" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_227.png",
+			"Depth_Information" : "Depth_227.png",
+			"FreshWeightShoot" : 129.0,
+			"DryWeightShoot" : 6.16,
+			"Height" : 16.5,
+			"Diameter" : 20.0,
+			"LeafArea" : 1979.5
+		},
+		"Image228" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_228.png",
+			"Depth_Information" : "Depth_228.png",
+			"FreshWeightShoot" : 125.0,
+			"DryWeightShoot" : 6.68,
+			"Height" : 16.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 1856.6
+		},
+		"Image262" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_262.png",
+			"Depth_Information" : "Depth_262.png",
+			"FreshWeightShoot" : 164.8,
+			"DryWeightShoot" : 9.24,
+			"Height" : 17.5,
+			"Diameter" : 30.6,
+			"LeafArea" : 2525.2
+		},
+		"Image263" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_263.png",
+			"Depth_Information" : "Depth_263.png",
+			"FreshWeightShoot" : 261.9,
+			"DryWeightShoot" : 12.31,
+			"Height" : 20.5,
+			"Diameter" : 25.0,
+			"LeafArea" : 3734.2
+		},
+		"Image264" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_264.png",
+			"Depth_Information" : "Depth_264.png",
+			"FreshWeightShoot" : 162.9,
+			"DryWeightShoot" : 8.15,
+			"Height" : 20.1,
+			"Diameter" : 25.3,
+			"LeafArea" : 2979.7
+		},
+		"Image267" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_267.png",
+			"Depth_Information" : "Depth_267.png",
+			"FreshWeightShoot" : 156.0,
+			"DryWeightShoot" : 6.47,
+			"Height" : 20.0,
+			"Diameter" : 29.3,
+			"LeafArea" : 2395.0
+		},
+		"Image269" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_269.png",
+			"Depth_Information" : "Depth_269.png",
+			"FreshWeightShoot" : 208.8,
+			"DryWeightShoot" : 9.98,
+			"Height" : 20.1,
+			"Diameter" : 29.8,
+			"LeafArea" : 3805.5
+		},
+		"Image270" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_270.png",
+			"Depth_Information" : "Depth_270.png",
+			"FreshWeightShoot" : 229.8,
+			"DryWeightShoot" : 9.75,
+			"Height" : 22.5,
+			"Diameter" : 27.5,
+			"LeafArea" : 3537.2
+		},
+		"Image271" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_271.png",
+			"Depth_Information" : "Depth_271.png",
+			"FreshWeightShoot" : 303.1,
+			"DryWeightShoot" : 12.62,
+			"Height" : 21.5,
+			"Diameter" : 30.0,
+			"LeafArea" : 4073.6
+		},
+		"Image272" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_272.png",
+			"Depth_Information" : "Depth_272.png",
+			"FreshWeightShoot" : 263.2,
+			"DryWeightShoot" : 12.17,
+			"Height" : 23.1,
+			"Diameter" : 27.2,
+			"LeafArea" : 4606.6
+		},
+		"Image346" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_346.png",
+			"Depth_Information" : "Depth_346.png",
+			"FreshWeightShoot" : 364.8,
+			"DryWeightShoot" : 14.69,
+			"Height" : 24.5,
+			"Diameter" : 33.0,
+			"LeafArea" : 4516.2
+		},
+		"Image347" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_347.png",
+			"Depth_Information" : "Depth_347.png",
+			"FreshWeightShoot" : 444.7,
+			"DryWeightShoot" : 17.24,
+			"Height" : 24.0,
+			"Diameter" : 34.5,
+			"LeafArea" : 4995.6
+		},
+		"Image348" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_348.png",
+			"Depth_Information" : "Depth_348.png",
+			"FreshWeightShoot" : 425.6,
+			"DryWeightShoot" : 16.47,
+			"Height" : 20.5,
+			"Diameter" : 34.0,
+			"LeafArea" : 5179.7
+		},
+		"Image353" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_353.png",
+			"Depth_Information" : "Depth_353.png",
+			"FreshWeightShoot" : 313.1,
+			"DryWeightShoot" : 14.15,
+			"Height" : 21.0,
+			"Diameter" : 34.5,
+			"LeafArea" : 6875.4
+		},
+		"Image354" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_354.png",
+			"Depth_Information" : "Depth_354.png",
+			"FreshWeightShoot" : 392.7,
+			"DryWeightShoot" : 18.06,
+			"Height" : 22.0,
+			"Diameter" : 34.0,
+			"LeafArea" : 4694.0
+		},
+		"Image356" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_356.png",
+			"Depth_Information" : "Depth_356.png",
+			"FreshWeightShoot" : 247.1,
+			"DryWeightShoot" : 13.42,
+			"Height" : 21.0,
+			"Diameter" : 30.0,
+			"LeafArea" : 3398.0
+		},
+		"Image22" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_22.png",
+			"Depth_Information" : "Depth_22.png",
+			"FreshWeightShoot" : 4.7,
+			"DryWeightShoot" : 0.41,
+			"Height" : 5.4,
+			"Diameter" : 13.3,
+			"LeafArea" : 121.0
+		},
+		"Image24" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_24.png",
+			"Depth_Information" : "Depth_24.png",
+			"FreshWeightShoot" : 6.1,
+			"DryWeightShoot" : 0.57,
+			"Height" : 7.8,
+			"Diameter" : 17.1,
+			"LeafArea" : 166.2
+		},
+		"Image25" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_25.png",
+			"Depth_Information" : "Depth_25.png",
+			"FreshWeightShoot" : 6.1,
+			"DryWeightShoot" : 0.55,
+			"Height" : 6.5,
+			"Diameter" : 15.8,
+			"LeafArea" : 164.8
+		},
+		"Image26" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_26.png",
+			"Depth_Information" : "Depth_26.png",
+			"FreshWeightShoot" : 4.7,
+			"DryWeightShoot" : 0.43,
+			"Height" : 5.5,
+			"Diameter" : 13.5,
+			"LeafArea" : 131.0
+		},
+		"Image28" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_28.png",
+			"Depth_Information" : "Depth_28.png",
+			"FreshWeightShoot" : 8.3,
+			"DryWeightShoot" : 0.63,
+			"Height" : 8.0,
+			"Diameter" : 13.0,
+			"LeafArea" : 202.4
+		},
+		"Image68" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_68.png",
+			"Depth_Information" : "Depth_68.png",
+			"FreshWeightShoot" : 23.2,
+			"DryWeightShoot" : 1.75,
+			"Height" : 6.1,
+			"Diameter" : 17.8,
+			"LeafArea" : 472.1
+		},
+		"Image69" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_69.png",
+			"Depth_Information" : "Depth_69.png",
+			"FreshWeightShoot" : 30.4,
+			"DryWeightShoot" : 1.83,
+			"Height" : 6.3,
+			"Diameter" : 16.0,
+			"LeafArea" : 628.8
+		},
+		"Image70" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_70.png",
+			"Depth_Information" : "Depth_70.png",
+			"FreshWeightShoot" : 26.5,
+			"DryWeightShoot" : 1.82,
+			"Height" : 7.3,
+			"Diameter" : 19.5,
+			"LeafArea" : 536.2
+		},
+		"Image72" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_72.png",
+			"Depth_Information" : "Depth_72.png",
+			"FreshWeightShoot" : 29.5,
+			"DryWeightShoot" : 2.04,
+			"Height" : 6.5,
+			"Diameter" : 16.2,
+			"LeafArea" : 596.8
+		},
+		"Image73" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_73.png",
+			"Depth_Information" : "Depth_73.png",
+			"FreshWeightShoot" : 36.0,
+			"DryWeightShoot" : 2.33,
+			"Height" : 6.8,
+			"Diameter" : 15.8,
+			"LeafArea" : 703.3
+		},
+		"Image76" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_76.png",
+			"Depth_Information" : "Depth_76.png",
+			"FreshWeightShoot" : 31.0,
+			"DryWeightShoot" : 1.68,
+			"Height" : 9.3,
+			"Diameter" : 18.0,
+			"LeafArea" : 638.0
+		},
+		"Image77" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_77.png",
+			"Depth_Information" : "Depth_77.png",
+			"FreshWeightShoot" : 29.9,
+			"DryWeightShoot" : 2.24,
+			"Height" : 7.0,
+			"Diameter" : 17.0,
+			"LeafArea" : 583.2
+		},
+		"Image78" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_78.png",
+			"Depth_Information" : "Depth_78.png",
+			"FreshWeightShoot" : 33.1,
+			"DryWeightShoot" : 1.97,
+			"Height" : 9.0,
+			"Diameter" : 18.5,
+			"LeafArea" : 657.4
+		},
+		"Image80" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_80.png",
+			"Depth_Information" : "Depth_80.png",
+			"FreshWeightShoot" : 17.9,
+			"DryWeightShoot" : 1.46,
+			"Height" : 6.1,
+			"Diameter" : 17.0,
+			"LeafArea" : 346.3
+		},
+		"Image83" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_83.png",
+			"Depth_Information" : "Depth_83.png",
+			"FreshWeightShoot" : 17.9,
+			"DryWeightShoot" : 1.1,
+			"Height" : 7.8,
+			"Diameter" : 17.1,
+			"LeafArea" : 388.7
+		},
+		"Image132" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_132.png",
+			"Depth_Information" : "Depth_132.png",
+			"FreshWeightShoot" : 45.6,
+			"DryWeightShoot" : 2.37,
+			"Height" : 11.6,
+			"Diameter" : 18.5,
+			"LeafArea" : 1721.5
+		},
+		"Image133" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_133.png",
+			"Depth_Information" : "Depth_133.png",
+			"FreshWeightShoot" : 85.1,
+			"DryWeightShoot" : 3.62,
+			"Height" : 10.8,
+			"Diameter" : 20.6,
+			"LeafArea" : 1777.8
+		},
+		"Image135" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_135.png",
+			"Depth_Information" : "Depth_135.png",
+			"FreshWeightShoot" : 66.9,
+			"DryWeightShoot" : 3.25,
+			"Height" : 10.6,
+			"Diameter" : 19.4,
+			"LeafArea" : 1062.9
+		},
+		"Image136" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_136.png",
+			"Depth_Information" : "Depth_136.png",
+			"FreshWeightShoot" : 25.8,
+			"DryWeightShoot" : 1.61,
+			"Height" : 9.8,
+			"Diameter" : 15.2,
+			"LeafArea" : 502.0
+		},
+		"Image137" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_137.png",
+			"Depth_Information" : "Depth_137.png",
+			"FreshWeightShoot" : 72.2,
+			"DryWeightShoot" : 3.12,
+			"Height" : 12.9,
+			"Diameter" : 22.1,
+			"LeafArea" : 1209.4
+		},
+		"Image138" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_138.png",
+			"Depth_Information" : "Depth_138.png",
+			"FreshWeightShoot" : 35.0,
+			"DryWeightShoot" : 1.99,
+			"Height" : 10.1,
+			"Diameter" : 16.5,
+			"LeafArea" : 685.5
+		},
+		"Image139" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_139.png",
+			"Depth_Information" : "Depth_139.png",
+			"FreshWeightShoot" : 32.1,
+			"DryWeightShoot" : 1.95,
+			"Height" : 8.9,
+			"Diameter" : 16.5,
+			"LeafArea" : 553.8
+		},
+		"Image141" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_141.png",
+			"Depth_Information" : "Depth_141.png",
+			"FreshWeightShoot" : 78.3,
+			"DryWeightShoot" : 3.25,
+			"Height" : 12.0,
+			"Diameter" : 21.6,
+			"LeafArea" : 1189.5
+		},
+		"Image142" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_142.png",
+			"Depth_Information" : "Depth_142.png",
+			"FreshWeightShoot" : 60.9,
+			"DryWeightShoot" : 2.67,
+			"Height" : 11.2,
+			"Diameter" : 21.0,
+			"LeafArea" : 1003.6
+		},
+		"Image143" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_143.png",
+			"Depth_Information" : "Depth_143.png",
+			"FreshWeightShoot" : 87.4,
+			"DryWeightShoot" : 4.24,
+			"Height" : 10.6,
+			"Diameter" : 20.3,
+			"LeafArea" : 1243.7
+		},
+		"Image146" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_146.png",
+			"Depth_Information" : "Depth_146.png",
+			"FreshWeightShoot" : 85.5,
+			"DryWeightShoot" : 4.3,
+			"Height" : 10.4,
+			"Diameter" : 21.3,
+			"LeafArea" : 1217.1
+		},
+		"Image147" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_147.png",
+			"Depth_Information" : "Depth_147.png",
+			"FreshWeightShoot" : 85.6,
+			"DryWeightShoot" : 3.46,
+			"Height" : 13.7,
+			"Diameter" : 22.1,
+			"LeafArea" : 1548.0
+		},
+		"Image195" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_195.png",
+			"Depth_Information" : "Depth_195.png",
+			"FreshWeightShoot" : 113.0,
+			"DryWeightShoot" : 5.37,
+			"Height" : 12.0,
+			"Diameter" : 20.0,
+			"LeafArea" : 1512.2
+		},
+		"Image198" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_198.png",
+			"Depth_Information" : "Depth_198.png",
+			"FreshWeightShoot" : 142.0,
+			"DryWeightShoot" : 6.54,
+			"Height" : 11.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 2056.9
+		},
+		"Image199" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_199.png",
+			"Depth_Information" : "Depth_199.png",
+			"FreshWeightShoot" : 78.0,
+			"DryWeightShoot" : 4.41,
+			"Height" : 13.0,
+			"Diameter" : 19.5,
+			"LeafArea" : 1311.9
+		},
+		"Image202" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_202.png",
+			"Depth_Information" : "Depth_202.png",
+			"FreshWeightShoot" : 88.0,
+			"DryWeightShoot" : 4.42,
+			"Height" : 14.0,
+			"Diameter" : 18.0,
+			"LeafArea" : 1988.0
+		},
+		"Image204" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_204.png",
+			"Depth_Information" : "Depth_204.png",
+			"FreshWeightShoot" : 135.0,
+			"DryWeightShoot" : 6.33,
+			"Height" : 12.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 2253.3
+		},
+		"Image206" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_206.png",
+			"Depth_Information" : "Depth_206.png",
+			"FreshWeightShoot" : 141.0,
+			"DryWeightShoot" : 6.42,
+			"Height" : 13.0,
+			"Diameter" : 22.0,
+			"LeafArea" : 2063.3
+		},
+		"Image242" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_242.png",
+			"Depth_Information" : "Depth_242.png",
+			"FreshWeightShoot" : 242.1,
+			"DryWeightShoot" : 10.17,
+			"Height" : 17.5,
+			"Diameter" : 23.9,
+			"LeafArea" : 3501.7
+		},
+		"Image243" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_243.png",
+			"Depth_Information" : "Depth_243.png",
+			"FreshWeightShoot" : 152.4,
+			"DryWeightShoot" : 7.84,
+			"Height" : 13.0,
+			"Diameter" : 21.8,
+			"LeafArea" : 3768.0
+		},
+		"Image248" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_248.png",
+			"Depth_Information" : "Depth_248.png",
+			"FreshWeightShoot" : 175.0,
+			"DryWeightShoot" : 8.23,
+			"Height" : 15.0,
+			"Diameter" : 23.5,
+			"LeafArea" : 2295.7
+		},
+		"Image286" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_286.png",
+			"Depth_Information" : "Depth_286.png",
+			"FreshWeightShoot" : 320.1,
+			"DryWeightShoot" : 11.84,
+			"Height" : 18.0,
+			"Diameter" : 27.5,
+			"LeafArea" : 3143.7
+		},
+		"Image287" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_287.png",
+			"Depth_Information" : "Depth_287.png",
+			"FreshWeightShoot" : 318.4,
+			"DryWeightShoot" : 12.66,
+			"Height" : 17.0,
+			"Diameter" : 26.0,
+			"LeafArea" : 3065.1
+		},
+		"Image288" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_288.png",
+			"Depth_Information" : "Depth_288.png",
+			"FreshWeightShoot" : 337.1,
+			"DryWeightShoot" : 12.81,
+			"Height" : 15.0,
+			"Diameter" : 25.5,
+			"LeafArea" : 3039.8
+		},
+		"Image289" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_289.png",
+			"Depth_Information" : "Depth_289.png",
+			"FreshWeightShoot" : 285.8,
+			"DryWeightShoot" : 10.43,
+			"Height" : 17.0,
+			"Diameter" : 26.5,
+			"LeafArea" : 3106.8
+		},
+		"Image293" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_293.png",
+			"Depth_Information" : "Depth_293.png",
+			"FreshWeightShoot" : 221.5,
+			"DryWeightShoot" : 8.29,
+			"Height" : 17.0,
+			"Diameter" : 26.0,
+			"LeafArea" : 2476.6
+		},
+		"Image294" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_294.png",
+			"Depth_Information" : "Depth_294.png",
+			"FreshWeightShoot" : 274.1,
+			"DryWeightShoot" : 8.29,
+			"Height" : 16.0,
+			"Diameter" : 25.0,
+			"LeafArea" : 2628.9
+		},
+		"Image300" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_300.png",
+			"Depth_Information" : "Depth_300.png",
+			"FreshWeightShoot" : 284.4,
+			"DryWeightShoot" : 9.44,
+			"Height" : 16.5,
+			"Diameter" : 29.0,
+			"LeafArea" : 3095.6
+		},
+		"Image301" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_301.png",
+			"Depth_Information" : "Depth_301.png",
+			"FreshWeightShoot" : 325.1,
+			"DryWeightShoot" : 11.26,
+			"Height" : 16.5,
+			"Diameter" : 26.5,
+			"LeafArea" : 4068.8
+		},
+		"Image302" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_302.png",
+			"Depth_Information" : "Depth_302.png",
+			"FreshWeightShoot" : 392.0,
+			"DryWeightShoot" : 12.68,
+			"Height" : 16.5,
+			"Diameter" : 29.0,
+			"LeafArea" : 4062.0
+		},
+		"Image307" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_307.png",
+			"Depth_Information" : "Depth_307.png",
+			"FreshWeightShoot" : 278.2,
+			"DryWeightShoot" : 10.51,
+			"Height" : 20.0,
+			"Diameter" : 27.0,
+			"LeafArea" : 2605.4
+		},
+		"Image308" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_308.png",
+			"Depth_Information" : "Depth_308.png",
+			"FreshWeightShoot" : 198.5,
+			"DryWeightShoot" : 9.33,
+			"Height" : 14.2,
+			"Diameter" : 20.2,
+			"LeafArea" : 2922.8
+		},
+		"Image310" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_310.png",
+			"Depth_Information" : "Depth_310.png",
+			"FreshWeightShoot" : 311.0,
+			"DryWeightShoot" : 10.89,
+			"Height" : 18.0,
+			"Diameter" : 27.0,
+			"LeafArea" : 3208.4
+		},
+		"Image311" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_311.png",
+			"Depth_Information" : "Depth_311.png",
+			"FreshWeightShoot" : 355.4,
+			"DryWeightShoot" : 12.36,
+			"Height" : 17.0,
+			"Diameter" : 26.0,
+			"LeafArea" : 3571.3
+		},
+		"Image59" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_59.png",
+			"Depth_Information" : "Depth_59.png",
+			"FreshWeightShoot" : 6.2,
+			"DryWeightShoot" : 0.45,
+			"Height" : 7.0,
+			"Diameter" : 13.5,
+			"LeafArea" : 161.0
+		},
+		"Image60" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_60.png",
+			"Depth_Information" : "Depth_60.png",
+			"FreshWeightShoot" : 3.9,
+			"DryWeightShoot" : 0.28,
+			"Height" : 7.2,
+			"Diameter" : 13.1,
+			"LeafArea" : 119.5
+		},
+		"Image61" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_61.png",
+			"Depth_Information" : "Depth_61.png",
+			"FreshWeightShoot" : 3.3,
+			"DryWeightShoot" : 0.24,
+			"Height" : 5.2,
+			"Diameter" : 13.0,
+			"LeafArea" : 89.0
+		},
+		"Image63" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_63.png",
+			"Depth_Information" : "Depth_63.png",
+			"FreshWeightShoot" : 6.0,
+			"DryWeightShoot" : 0.45,
+			"Height" : 5.5,
+			"Diameter" : 19.2,
+			"LeafArea" : 159.8
+		},
+		"Image64" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_64.png",
+			"Depth_Information" : "Depth_64.png",
+			"FreshWeightShoot" : 6.0,
+			"DryWeightShoot" : 0.43,
+			"Height" : 6.0,
+			"Diameter" : 12.0,
+			"LeafArea" : 161.6
+		},
+		"Image65" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_65.png",
+			"Depth_Information" : "Depth_65.png",
+			"FreshWeightShoot" : 5.3,
+			"DryWeightShoot" : 0.41,
+			"Height" : 5.7,
+			"Diameter" : 13.5,
+			"LeafArea" : 157.6
+		},
+		"Image67" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_67.png",
+			"Depth_Information" : "Depth_67.png",
+			"FreshWeightShoot" : 4.8,
+			"DryWeightShoot" : 0.33,
+			"Height" : 5.3,
+			"Diameter" : 13.0,
+			"LeafArea" : 145.0
+		},
+		"Image116" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_116.png",
+			"Depth_Information" : "Depth_116.png",
+			"FreshWeightShoot" : 20.4,
+			"DryWeightShoot" : 1.28,
+			"Height" : 6.0,
+			"Diameter" : 17.0,
+			"LeafArea" : 445.9
+		},
+		"Image119" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_119.png",
+			"Depth_Information" : "Depth_119.png",
+			"FreshWeightShoot" : 27.5,
+			"DryWeightShoot" : 1.51,
+			"Height" : 7.5,
+			"Diameter" : 18.4,
+			"LeafArea" : 561.1
+		},
+		"Image122" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_122.png",
+			"Depth_Information" : "Depth_122.png",
+			"FreshWeightShoot" : 23.2,
+			"DryWeightShoot" : 1.36,
+			"Height" : 7.5,
+			"Diameter" : 18.1,
+			"LeafArea" : 452.3
+		},
+		"Image123" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_123.png",
+			"Depth_Information" : "Depth_123.png",
+			"FreshWeightShoot" : 18.9,
+			"DryWeightShoot" : 1.12,
+			"Height" : 7.9,
+			"Diameter" : 18.5,
+			"LeafArea" : 437.6
+		},
+		"Image126" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_126.png",
+			"Depth_Information" : "Depth_126.png",
+			"FreshWeightShoot" : 26.4,
+			"DryWeightShoot" : 1.48,
+			"Height" : 8.8,
+			"Diameter" : 19.1,
+			"LeafArea" : 606.7
+		},
+		"Image129" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_129.png",
+			"Depth_Information" : "Depth_129.png",
+			"FreshWeightShoot" : 22.3,
+			"DryWeightShoot" : 1.29,
+			"Height" : 8.5,
+			"Diameter" : 18.1,
+			"LeafArea" : 492.4
+		},
+		"Image131" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_131.png",
+			"Depth_Information" : "Depth_131.png",
+			"FreshWeightShoot" : 31.2,
+			"DryWeightShoot" : 1.76,
+			"Height" : 8.7,
+			"Diameter" : 20.1,
+			"LeafArea" : 714.4
+		},
+		"Image180" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_180.png",
+			"Depth_Information" : "Depth_180.png",
+			"FreshWeightShoot" : 70.0,
+			"DryWeightShoot" : 3.28,
+			"Height" : 12.0,
+			"Diameter" : 21.6,
+			"LeafArea" : 1225.0
+		},
+		"Image181" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_181.png",
+			"Depth_Information" : "Depth_181.png",
+			"FreshWeightShoot" : 31.9,
+			"DryWeightShoot" : 1.66,
+			"Height" : 11.3,
+			"Diameter" : 19.0,
+			"LeafArea" : 725.3
+		},
+		"Image182" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_182.png",
+			"Depth_Information" : "Depth_182.png",
+			"FreshWeightShoot" : 39.1,
+			"DryWeightShoot" : 2.13,
+			"Height" : 9.2,
+			"Diameter" : 18.0,
+			"LeafArea" : 695.6
+		},
+		"Image183" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_183.png",
+			"Depth_Information" : "Depth_183.png",
+			"FreshWeightShoot" : 63.0,
+			"DryWeightShoot" : 2.8,
+			"Height" : 11.8,
+			"Diameter" : 21.3,
+			"LeafArea" : 1076.2
+		},
+		"Image184" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_184.png",
+			"Depth_Information" : "Depth_184.png",
+			"FreshWeightShoot" : 34.0,
+			"DryWeightShoot" : 1.69,
+			"Height" : 10.6,
+			"Diameter" : 19.0,
+			"LeafArea" : 770.0
+		},
+		"Image185" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_185.png",
+			"Depth_Information" : "Depth_185.png",
+			"FreshWeightShoot" : 40.1,
+			"DryWeightShoot" : 2.11,
+			"Height" : 10.0,
+			"Diameter" : 19.0,
+			"LeafArea" : 772.4
+		},
+		"Image186" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_186.png",
+			"Depth_Information" : "Depth_186.png",
+			"FreshWeightShoot" : 49.6,
+			"DryWeightShoot" : 2.78,
+			"Height" : 10.3,
+			"Diameter" : 18.4,
+			"LeafArea" : 952.2
+		},
+		"Image187" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_187.png",
+			"Depth_Information" : "Depth_187.png",
+			"FreshWeightShoot" : 48.0,
+			"DryWeightShoot" : 2.24,
+			"Height" : 9.8,
+			"Diameter" : 20.6,
+			"LeafArea" : 876.8
+		},
+		"Image188" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_188.png",
+			"Depth_Information" : "Depth_188.png",
+			"FreshWeightShoot" : 61.6,
+			"DryWeightShoot" : 2.8,
+			"Height" : 11.9,
+			"Diameter" : 20.4,
+			"LeafArea" : 1061.8
+		},
+		"Image189" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_189.png",
+			"Depth_Information" : "Depth_189.png",
+			"FreshWeightShoot" : 56.5,
+			"DryWeightShoot" : 2.63,
+			"Height" : 12.1,
+			"Diameter" : 19.2,
+			"LeafArea" : 1001.3
+		},
+		"Image192" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_192.png",
+			"Depth_Information" : "Depth_192.png",
+			"FreshWeightShoot" : 37.5,
+			"DryWeightShoot" : 1.95,
+			"Height" : 11.3,
+			"Diameter" : 21.3,
+			"LeafArea" : 740.5
+		},
+		"Image194" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_194.png",
+			"Depth_Information" : "Depth_194.png",
+			"FreshWeightShoot" : 48.8,
+			"DryWeightShoot" : 2.21,
+			"Height" : 9.4,
+			"Diameter" : 21.2,
+			"LeafArea" : 999.2
+		},
+		"Image230" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_230.png",
+			"Depth_Information" : "Depth_230.png",
+			"FreshWeightShoot" : 82.0,
+			"DryWeightShoot" : 3.7,
+			"Height" : 11.0,
+			"Diameter" : 21.0,
+			"LeafArea" : 1212.5
+		},
+		"Image231" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_231.png",
+			"Depth_Information" : "Depth_231.png",
+			"FreshWeightShoot" : 64.0,
+			"DryWeightShoot" : 3.53,
+			"Height" : 10.0,
+			"Diameter" : 20.0,
+			"LeafArea" : 1066.1
+		},
+		"Image236" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_236.png",
+			"Depth_Information" : "Depth_236.png",
+			"FreshWeightShoot" : 70.0,
+			"DryWeightShoot" : 3.51,
+			"Height" : 11.0,
+			"Diameter" : 22.0,
+			"LeafArea" : 1237.5
+		},
+		"Image237" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_237.png",
+			"Depth_Information" : "Depth_237.png",
+			"FreshWeightShoot" : 102.0,
+			"DryWeightShoot" : 5.21,
+			"Height" : 10.0,
+			"Diameter" : 25.0,
+			"LeafArea" : 1648.3
+		},
+		"Image238" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_238.png",
+			"Depth_Information" : "Depth_238.png",
+			"FreshWeightShoot" : 93.0,
+			"DryWeightShoot" : 4.59,
+			"Height" : 13.0,
+			"Diameter" : 19.5,
+			"LeafArea" : 1640.7
+		},
+		"Image239" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_239.png",
+			"Depth_Information" : "Depth_239.png",
+			"FreshWeightShoot" : 84.0,
+			"DryWeightShoot" : 4.35,
+			"Height" : 13.0,
+			"Diameter" : 20.0,
+			"LeafArea" : 1287.8
+		},
+		"Image240" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_240.png",
+			"Depth_Information" : "Depth_240.png",
+			"FreshWeightShoot" : 66.0,
+			"DryWeightShoot" : 3.91,
+			"Height" : 11.0,
+			"Diameter" : 21.0,
+			"LeafArea" : 1251.4
+		},
+		"Image274" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_274.png",
+			"Depth_Information" : "Depth_274.png",
+			"FreshWeightShoot" : 87.0,
+			"DryWeightShoot" : 4.86,
+			"Height" : 14.0,
+			"Diameter" : 22.5,
+			"LeafArea" : 1447.3
+		},
+		"Image275" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_275.png",
+			"Depth_Information" : "Depth_275.png",
+			"FreshWeightShoot" : 118.3,
+			"DryWeightShoot" : 6.0,
+			"Height" : 14.0,
+			"Diameter" : 22.0,
+			"LeafArea" : 1508.7
+		},
+		"Image279" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_279.png",
+			"Depth_Information" : "Depth_279.png",
+			"FreshWeightShoot" : 134.4,
+			"DryWeightShoot" : 6.16,
+			"Height" : 16.5,
+			"Diameter" : 22.2,
+			"LeafArea" : 1822.9
+		},
+		"Image280" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_280.png",
+			"Depth_Information" : "Depth_280.png",
+			"FreshWeightShoot" : 182.1,
+			"DryWeightShoot" : 6.8,
+			"Height" : 16.0,
+			"Diameter" : 26.3,
+			"LeafArea" : 1748.4
+		},
+		"Image281" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_281.png",
+			"Depth_Information" : "Depth_281.png",
+			"FreshWeightShoot" : 130.9,
+			"DryWeightShoot" : 6.64,
+			"Height" : 15.2,
+			"Diameter" : 21.3,
+			"LeafArea" : 2258.5
+		},
+		"Image283" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_283.png",
+			"Depth_Information" : "Depth_283.png",
+			"FreshWeightShoot" : 147.4,
+			"DryWeightShoot" : 7.04,
+			"Height" : 14.5,
+			"Diameter" : 21.0,
+			"LeafArea" : 1743.5
+		},
+		"Image284" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_284.png",
+			"Depth_Information" : "Depth_284.png",
+			"FreshWeightShoot" : 117.4,
+			"DryWeightShoot" : 6.09,
+			"Height" : 14.5,
+			"Diameter" : 23.0,
+			"LeafArea" : 1982.8
+		},
+		"Image364" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_364.png",
+			"Depth_Information" : "Depth_364.png",
+			"FreshWeightShoot" : 228.4,
+			"DryWeightShoot" : 11.11,
+			"Height" : 17.5,
+			"Diameter" : 25.0,
+			"LeafArea" : 2468.0
+		},
+		"Image368" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_368.png",
+			"Depth_Information" : "Depth_368.png",
+			"FreshWeightShoot" : 172.7,
+			"DryWeightShoot" : 7.9,
+			"Height" : 18.0,
+			"Diameter" : 26.5,
+			"LeafArea" : 2091.8
+		},
+		"Image369" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_369.png",
+			"Depth_Information" : "Depth_369.png",
+			"FreshWeightShoot" : 130.4,
+			"DryWeightShoot" : 6.6,
+			"Height" : 14.0,
+			"Diameter" : 25.0,
+			"LeafArea" : 1899.6
+		},
+		"Image371" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_371.png",
+			"Depth_Information" : "Depth_371.png",
+			"FreshWeightShoot" : 229.6,
+			"DryWeightShoot" : 10.11,
+			"Height" : 16.0,
+			"Diameter" : 25.0,
+			"LeafArea" : 2620.8
+		},
+		"Image372" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_372.png",
+			"Depth_Information" : "Depth_372.png",
+			"FreshWeightShoot" : 150.7,
+			"DryWeightShoot" : 7.12,
+			"Height" : 19.0,
+			"Diameter" : 26.0,
+			"LeafArea" : 2758.6
+		},
+		"Image376" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_376.png",
+			"Depth_Information" : "Depth_376.png",
+			"FreshWeightShoot" : 139.0,
+			"DryWeightShoot" : 6.98,
+			"Height" : 18.0,
+			"Diameter" : 25.0,
+			"LeafArea" : 2559.6
+		},
+		"Image379" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_379.png",
+			"Depth_Information" : "Depth_379.png",
+			"FreshWeightShoot" : 145.3,
+			"DryWeightShoot" : 7.08,
+			"Height" : 17.0,
+			"Diameter" : 23.0,
+			"LeafArea" : 2083.8
+		},
+		"Image381" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_381.png",
+			"Depth_Information" : "Depth_381.png",
+			"FreshWeightShoot" : 184.7,
+			"DryWeightShoot" : 7.39,
+			"Height" : 18.5,
+			"Diameter" : 28.0,
+			"LeafArea" : 2420.3
+		},
+		"Image382" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_382.png",
+			"Depth_Information" : "Depth_382.png",
+			"FreshWeightShoot" : 213.5,
+			"DryWeightShoot" : 8.77,
+			"Height" : 18.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 2961.9
+		},
+		"Image386" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_386.png",
+			"Depth_Information" : "Depth_386.png",
+			"FreshWeightShoot" : 196.2,
+			"DryWeightShoot" : 7.62,
+			"Height" : 12.0,
+			"Diameter" : 15.6,
+			"LeafArea" : 2321.7
+		},
+		"Image387" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_387.png",
+			"Depth_Information" : "Depth_387.png",
+			"FreshWeightShoot" : 163.2,
+			"DryWeightShoot" : 9.17,
+			"Height" : 16.0,
+			"Diameter" : 26.0,
+			"LeafArea" : 1858.3
+		},
+		"Image388" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_388.png",
+			"Depth_Information" : "Depth_388.png",
+			"FreshWeightShoot" : 180.6,
+			"DryWeightShoot" : 10.01,
+			"Height" : 17.0,
+			"Diameter" : 31.0,
+			"LeafArea" : 1805.6
+		},
+		"Image389" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_389.png",
+			"Depth_Information" : "Depth_389.png",
+			"FreshWeightShoot" : 209.3,
+			"DryWeightShoot" : 8.19,
+			"Height" : 15.0,
+			"Diameter" : 25.6,
+			"LeafArea" : 2257.1
+		},
+		"Image390" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_390.png",
+			"Depth_Information" : "Depth_390.png",
+			"FreshWeightShoot" : 204.5,
+			"DryWeightShoot" : 9.2,
+			"Height" : 18.0,
+			"Diameter" : 32.0,
+			"LeafArea" : 3179.4
+		},
+		"Image391" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_391.png",
+			"Depth_Information" : "Depth_391.png",
+			"FreshWeightShoot" : 216.6,
+			"DryWeightShoot" : 8.74,
+			"Height" : 17.1,
+			"Diameter" : 25.1,
+			"LeafArea" : 3279.8
+		},
+		"Image34" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_34.png",
+			"Depth_Information" : "Depth_34.png",
+			"FreshWeightShoot" : 4.5,
+			"DryWeightShoot" : 0.6,
+			"Height" : 6.5,
+			"Diameter" : 18.6,
+			"LeafArea" : 161.8
+		},
+		"Image35" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_35.png",
+			"Depth_Information" : "Depth_35.png",
+			"FreshWeightShoot" : 5.5,
+			"DryWeightShoot" : 0.65,
+			"Height" : 7.0,
+			"Diameter" : 19.5,
+			"LeafArea" : 188.8
+		},
+		"Image36" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_36.png",
+			"Depth_Information" : "Depth_36.png",
+			"FreshWeightShoot" : 3.5,
+			"DryWeightShoot" : 0.35,
+			"Height" : 7.3,
+			"Diameter" : 16.0,
+			"LeafArea" : 137.4
+		},
+		"Image37" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_37.png",
+			"Depth_Information" : "Depth_37.png",
+			"FreshWeightShoot" : 4.8,
+			"DryWeightShoot" : 0.59,
+			"Height" : 6.3,
+			"Diameter" : 18.0,
+			"LeafArea" : 175.2
+		},
+		"Image41" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_41.png",
+			"Depth_Information" : "Depth_41.png",
+			"FreshWeightShoot" : 4.6,
+			"DryWeightShoot" : 0.54,
+			"Height" : 9.0,
+			"Diameter" : 16.8,
+			"LeafArea" : 174.9
+		},
+		"Image42" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_42.png",
+			"Depth_Information" : "Depth_42.png",
+			"FreshWeightShoot" : 5.2,
+			"DryWeightShoot" : 0.58,
+			"Height" : 9.8,
+			"Diameter" : 17.2,
+			"LeafArea" : 202.7
+		},
+		"Image43" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_43.png",
+			"Depth_Information" : "Depth_43.png",
+			"FreshWeightShoot" : 3.9,
+			"DryWeightShoot" : 0.46,
+			"Height" : 8.6,
+			"Diameter" : 17.2,
+			"LeafArea" : 140.8
+		},
+		"Image84" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_84.png",
+			"Depth_Information" : "Depth_84.png",
+			"FreshWeightShoot" : 16.4,
+			"DryWeightShoot" : 1.22,
+			"Height" : 6.8,
+			"Diameter" : 18.5,
+			"LeafArea" : 520.1
+		},
+		"Image86" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_86.png",
+			"Depth_Information" : "Depth_86.png",
+			"FreshWeightShoot" : 12.5,
+			"DryWeightShoot" : 1.01,
+			"Height" : 5.4,
+			"Diameter" : 17.4,
+			"LeafArea" : 412.3
+		},
+		"Image87" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_87.png",
+			"Depth_Information" : "Depth_87.png",
+			"FreshWeightShoot" : 18.8,
+			"DryWeightShoot" : 1.31,
+			"Height" : 7.3,
+			"Diameter" : 22.1,
+			"LeafArea" : 578.5
+		},
+		"Image91" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_91.png",
+			"Depth_Information" : "Depth_91.png",
+			"FreshWeightShoot" : 16.2,
+			"DryWeightShoot" : 1.14,
+			"Height" : 8.0,
+			"Diameter" : 18.8,
+			"LeafArea" : 524.2
+		},
+		"Image92" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_92.png",
+			"Depth_Information" : "Depth_92.png",
+			"FreshWeightShoot" : 19.4,
+			"DryWeightShoot" : 1.53,
+			"Height" : 9.0,
+			"Diameter" : 20.3,
+			"LeafArea" : 654.3
+		},
+		"Image94" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_94.png",
+			"Depth_Information" : "Depth_94.png",
+			"FreshWeightShoot" : 14.5,
+			"DryWeightShoot" : 1.01,
+			"Height" : 8.5,
+			"Diameter" : 21.2,
+			"LeafArea" : 427.9
+		},
+		"Image98" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_98.png",
+			"Depth_Information" : "Depth_98.png",
+			"FreshWeightShoot" : 10.3,
+			"DryWeightShoot" : 0.93,
+			"Height" : 7.8,
+			"Diameter" : 17.0,
+			"LeafArea" : 330.6
+		},
+		"Image149" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_149.png",
+			"Depth_Information" : "Depth_149.png",
+			"FreshWeightShoot" : 33.5,
+			"DryWeightShoot" : 2.11,
+			"Height" : 11.0,
+			"Diameter" : 23.1,
+			"LeafArea" : 928.8
+		},
+		"Image150" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_150.png",
+			"Depth_Information" : "Depth_150.png",
+			"FreshWeightShoot" : 55.2,
+			"DryWeightShoot" : 3.09,
+			"Height" : 11.3,
+			"Diameter" : 27.2,
+			"LeafArea" : 1466.6
+		},
+		"Image151" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_151.png",
+			"Depth_Information" : "Depth_151.png",
+			"FreshWeightShoot" : 69.8,
+			"DryWeightShoot" : 4.16,
+			"Height" : 9.0,
+			"Diameter" : 25.1,
+			"LeafArea" : 1694.3
+		},
+		"Image152" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_152.png",
+			"Depth_Information" : "Depth_152.png",
+			"FreshWeightShoot" : 73.5,
+			"DryWeightShoot" : 3.86,
+			"Height" : 11.3,
+			"Diameter" : 28.5,
+			"LeafArea" : 1866.7
+		},
+		"Image153" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_153.png",
+			"Depth_Information" : "Depth_153.png",
+			"FreshWeightShoot" : 56.0,
+			"DryWeightShoot" : 2.96,
+			"Height" : 12.5,
+			"Diameter" : 24.5,
+			"LeafArea" : 1554.8
+		},
+		"Image154" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_154.png",
+			"Depth_Information" : "Depth_154.png",
+			"FreshWeightShoot" : 60.3,
+			"DryWeightShoot" : 3.38,
+			"Height" : 12.1,
+			"Diameter" : 24.6,
+			"LeafArea" : 1674.7
+		},
+		"Image155" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_155.png",
+			"Depth_Information" : "Depth_155.png",
+			"FreshWeightShoot" : 39.8,
+			"DryWeightShoot" : 2.23,
+			"Height" : 11.3,
+			"Diameter" : 24.9,
+			"LeafArea" : 1082.6
+		},
+		"Image156" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_156.png",
+			"Depth_Information" : "Depth_156.png",
+			"FreshWeightShoot" : 47.2,
+			"DryWeightShoot" : 2.41,
+			"Height" : 13.1,
+			"Diameter" : 25.0,
+			"LeafArea" : 1115.5
+		},
+		"Image158" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_158.png",
+			"Depth_Information" : "Depth_158.png",
+			"FreshWeightShoot" : 62.3,
+			"DryWeightShoot" : 3.64,
+			"Height" : 11.0,
+			"Diameter" : 23.7,
+			"LeafArea" : 1600.9
+		},
+		"Image159" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_159.png",
+			"Depth_Information" : "Depth_159.png",
+			"FreshWeightShoot" : 55.0,
+			"DryWeightShoot" : 3.07,
+			"Height" : 13.2,
+			"Diameter" : 26.6,
+			"LeafArea" : 1466.2
+		},
+		"Image160" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_160.png",
+			"Depth_Information" : "Depth_160.png",
+			"FreshWeightShoot" : 47.8,
+			"DryWeightShoot" : 2.52,
+			"Height" : 12.2,
+			"Diameter" : 23.4,
+			"LeafArea" : 1255.1
+		},
+		"Image208" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_208.png",
+			"Depth_Information" : "Depth_208.png",
+			"FreshWeightShoot" : 101.0,
+			"DryWeightShoot" : 5.13,
+			"Height" : 9.0,
+			"Diameter" : 25.0,
+			"LeafArea" : 2139.4
+		},
+		"Image211" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_211.png",
+			"Depth_Information" : "Depth_211.png",
+			"FreshWeightShoot" : 110.0,
+			"DryWeightShoot" : 6.04,
+			"Height" : 12.0,
+			"Diameter" : 28.0,
+			"LeafArea" : 2414.7
+		},
+		"Image212" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_212.png",
+			"Depth_Information" : "Depth_212.png",
+			"FreshWeightShoot" : 60.0,
+			"DryWeightShoot" : 3.79,
+			"Height" : 8.0,
+			"Diameter" : 23.0,
+			"LeafArea" : 1822.1
+		},
+		"Image213" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_213.png",
+			"Depth_Information" : "Depth_213.png",
+			"FreshWeightShoot" : 118.0,
+			"DryWeightShoot" : 6.1,
+			"Height" : 14.0,
+			"Diameter" : 33.0,
+			"LeafArea" : 2945.7
+		},
+		"Image214" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_214.png",
+			"Depth_Information" : "Depth_214.png",
+			"FreshWeightShoot" : 57.0,
+			"DryWeightShoot" : 3.7,
+			"Height" : 9.0,
+			"Diameter" : 21.0,
+			"LeafArea" : 1703.9
+		},
+		"Image217" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_217.png",
+			"Depth_Information" : "Depth_217.png",
+			"FreshWeightShoot" : 67.0,
+			"DryWeightShoot" : 4.49,
+			"Height" : 11.0,
+			"Diameter" : 26.0,
+			"LeafArea" : 1626.2
+		},
+		"Image250" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_250.png",
+			"Depth_Information" : "Depth_250.png",
+			"FreshWeightShoot" : 164.3,
+			"DryWeightShoot" : 8.58,
+			"Height" : 15.5,
+			"Diameter" : 36.3,
+			"LeafArea" : 3855.3
+		},
+		"Image251" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_251.png",
+			"Depth_Information" : "Depth_251.png",
+			"FreshWeightShoot" : 116.5,
+			"DryWeightShoot" : 7.04,
+			"Height" : 13.5,
+			"Diameter" : 29.0,
+			"LeafArea" : 2893.2
+		},
+		"Image253" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_253.png",
+			"Depth_Information" : "Depth_253.png",
+			"FreshWeightShoot" : 186.0,
+			"DryWeightShoot" : 9.4,
+			"Height" : 11.1,
+			"Diameter" : 28.1,
+			"LeafArea" : 3979.1
+		},
+		"Image254" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_254.png",
+			"Depth_Information" : "Depth_254.png",
+			"FreshWeightShoot" : 155.5,
+			"DryWeightShoot" : 8.03,
+			"Height" : 14.0,
+			"Diameter" : 25.3,
+			"LeafArea" : 3402.4
+		},
+		"Image255" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_255.png",
+			"Depth_Information" : "Depth_255.png",
+			"FreshWeightShoot" : 133.2,
+			"DryWeightShoot" : 6.84,
+			"Height" : 15.8,
+			"Diameter" : 32.0,
+			"LeafArea" : 3089.2
+		},
+		"Image256" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_256.png",
+			"Depth_Information" : "Depth_256.png",
+			"FreshWeightShoot" : 207.5,
+			"DryWeightShoot" : 10.38,
+			"Height" : 16.5,
+			"Diameter" : 33.3,
+			"LeafArea" : 5001.9
+		},
+		"Image257" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_257.png",
+			"Depth_Information" : "Depth_257.png",
+			"FreshWeightShoot" : 159.3,
+			"DryWeightShoot" : 8.27,
+			"Height" : 12.1,
+			"Diameter" : 29.3,
+			"LeafArea" : 3828.6
+		},
+		"Image312" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_312.png",
+			"Depth_Information" : "Depth_312.png",
+			"FreshWeightShoot" : 286.4,
+			"DryWeightShoot" : 14.14,
+			"Height" : 18.5,
+			"Diameter" : 34.5,
+			"LeafArea" : 5463.7
+		},
+		"Image313" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_313.png",
+			"Depth_Information" : "Depth_313.png",
+			"FreshWeightShoot" : 197.7,
+			"DryWeightShoot" : 10.95,
+			"Height" : 15.5,
+			"Diameter" : 30.5,
+			"LeafArea" : 3694.1
+		},
+		"Image318" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_318.png",
+			"Depth_Information" : "Depth_318.png",
+			"FreshWeightShoot" : 180.4,
+			"DryWeightShoot" : 10.69,
+			"Height" : 14.0,
+			"Diameter" : 33.0,
+			"LeafArea" : 3714.5
+		},
+		"Image323" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_323.png",
+			"Depth_Information" : "Depth_323.png",
+			"FreshWeightShoot" : 173.4,
+			"DryWeightShoot" : 7.36,
+			"Height" : 14.3,
+			"Diameter" : 27.5,
+			"LeafArea" : 3163.1
+		},
+		"Image328" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_328.png",
+			"Depth_Information" : "Depth_328.png",
+			"FreshWeightShoot" : 235.6,
+			"DryWeightShoot" : 11.04,
+			"Height" : 17.0,
+			"Diameter" : 33.5,
+			"LeafArea" : 5348.1
+		},
+		"Image329" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_329.png",
+			"Depth_Information" : "Depth_329.png",
+			"FreshWeightShoot" : 324.1,
+			"DryWeightShoot" : 13.9,
+			"Height" : 16.5,
+			"Diameter" : 32.0,
+			"LeafArea" : 6365.0
+		},
+		"Image330" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_330.png",
+			"Depth_Information" : "Depth_330.png",
+			"FreshWeightShoot" : 240.1,
+			"DryWeightShoot" : 8.94,
+			"Height" : 17.0,
+			"Diameter" : 29.0,
+			"LeafArea" : 4112.6
+		},
+		"Image332" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_332.png",
+			"Depth_Information" : "Depth_332.png",
+			"FreshWeightShoot" : 232.5,
+			"DryWeightShoot" : 10.49,
+			"Height" : 15.0,
+			"Diameter" : 29.0,
+			"LeafArea" : 4153.3
+		},
+		"Image333" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_333.png",
+			"Depth_Information" : "Depth_333.png",
+			"FreshWeightShoot" : 95.8,
+			"DryWeightShoot" : 6.96,
+			"Height" : 9.0,
+			"Diameter" : 12.3,
+			"LeafArea" : 1976.0
+		},
+		"Image334" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_334.png",
+			"Depth_Information" : "Depth_334.png",
+			"FreshWeightShoot" : 229.2,
+			"DryWeightShoot" : 11.69,
+			"Height" : 15.4,
+			"Diameter" : 39.2,
+			"LeafArea" : 4279.3
+		},
+		"Image335" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_335.png",
+			"Depth_Information" : "Depth_335.png",
+			"FreshWeightShoot" : 268.4,
+			"DryWeightShoot" : 12.11,
+			"Height" : 17.0,
+			"Diameter" : 33.0,
+			"LeafArea" : 5088.8
+		},
+		"Image336" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_336.png",
+			"Depth_Information" : "Depth_336.png",
+			"FreshWeightShoot" : 213.8,
+			"DryWeightShoot" : 11.07,
+			"Height" : 13.5,
+			"Diameter" : 31.3,
+			"LeafArea" : 4332.9
+		},
+		"Image338" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_338.png",
+			"Depth_Information" : "Depth_338.png",
+			"FreshWeightShoot" : 184.2,
+			"DryWeightShoot" : 10.42,
+			"Height" : 13.6,
+			"Diameter" : 22.5,
+			"LeafArea" : 3987.9
+		},
+		"Image339" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_339.png",
+			"Depth_Information" : "Depth_339.png",
+			"FreshWeightShoot" : 273.4,
+			"DryWeightShoot" : 13.23,
+			"Height" : 16.0,
+			"Diameter" : 34.0,
+			"LeafArea" : 4905.0
+		},
+		"Image340" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_340.png",
+			"Depth_Information" : "Depth_340.png",
+			"FreshWeightShoot" : 241.9,
+			"DryWeightShoot" : 8.98,
+			"Height" : 13.0,
+			"Diameter" : 29.5,
+			"LeafArea" : 4365.1
+		},
+		"Image341" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_341.png",
+			"Depth_Information" : "Depth_341.png",
+			"FreshWeightShoot" : 219.1,
+			"DryWeightShoot" : 11.51,
+			"Height" : 18.0,
+			"Diameter" : 35.2,
+			"LeafArea" : 4557.3
+		},
+		"Image342" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_342.png",
+			"Depth_Information" : "Depth_342.png",
+			"FreshWeightShoot" : 272.6,
+			"DryWeightShoot" : 13.48,
+			"Height" : 15.0,
+			"Diameter" : 32.3,
+			"LeafArea" : 4255.6
+		},
+		"Image15" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_15.png",
+			"Depth_Information" : "Depth_15.png",
+			"FreshWeightShoot" : 3.2,
+			"DryWeightShoot" : 0.16,
+			"Height" : 5.1,
+			"Diameter" : 16.1,
+			"LeafArea" : 87.6
+		},
+		"Image106" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_106.png",
+			"Depth_Information" : "Depth_106.png",
+			"FreshWeightShoot" : 37.0,
+			"DryWeightShoot" : 1.98,
+			"Height" : 8.6,
+			"Diameter" : 20.1,
+			"LeafArea" : 675.5
+		},
+		"Image176" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_176.png",
+			"Depth_Information" : "Depth_176.png",
+			"FreshWeightShoot" : 78.1,
+			"DryWeightShoot" : 4.1,
+			"Height" : 12.3,
+			"Diameter" : 17.4,
+			"LeafArea" : 1263.5
+		},
+		"Image268" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_268.png",
+			"Depth_Information" : "Depth_268.png",
+			"FreshWeightShoot" : 196.3,
+			"DryWeightShoot" : 9.19,
+			"Height" : 23.0,
+			"Diameter" : 35.0,
+			"LeafArea" : 3774.7
+		},
+		"Image351" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_351.png",
+			"Depth_Information" : "Depth_351.png",
+			"FreshWeightShoot" : 224.0,
+			"DryWeightShoot" : 11.56,
+			"Height" : 20.0,
+			"Diameter" : 21.0,
+			"LeafArea" : 4185.4
+		},
+		"Image5" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_5.png",
+			"Depth_Information" : "Depth_5.png",
+			"FreshWeightShoot" : 2.3,
+			"DryWeightShoot" : 0.11,
+			"Height" : 8.3,
+			"Diameter" : 9.8,
+			"LeafArea" : 73.9
+		},
+		"Image74" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_74.png",
+			"Depth_Information" : "Depth_74.png",
+			"FreshWeightShoot" : 30.6,
+			"DryWeightShoot" : 2.36,
+			"Height" : 7.4,
+			"Diameter" : 21.0,
+			"LeafArea" : 599.6
+		},
+		"Image144" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_144.png",
+			"Depth_Information" : "Depth_144.png",
+			"FreshWeightShoot" : 73.2,
+			"DryWeightShoot" : 3.74,
+			"Height" : 11.5,
+			"Diameter" : 19.5,
+			"LeafArea" : 1143.7
+		},
+		"Image285" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_285.png",
+			"Depth_Information" : "Depth_285.png",
+			"FreshWeightShoot" : 318.4,
+			"DryWeightShoot" : 12.65,
+			"Height" : 17.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 3319.3
+		},
+		"Image296" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_296.png",
+			"Depth_Information" : "Depth_296.png",
+			"FreshWeightShoot" : 220.0,
+			"DryWeightShoot" : 9.71,
+			"Height" : 20.0,
+			"Diameter" : 26.0,
+			"LeafArea" : 2494.8
+		},
+		"Image1" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_1.png",
+			"Depth_Information" : "Depth_1.png",
+			"FreshWeightShoot" : 2.6,
+			"DryWeightShoot" : 0.14,
+			"Height" : 8.2,
+			"Diameter" : 12.0,
+			"LeafArea" : 80.6
+		},
+		"Image125" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_125.png",
+			"Depth_Information" : "Depth_125.png",
+			"FreshWeightShoot" : 22.3,
+			"DryWeightShoot" : 1.36,
+			"Height" : 8.4,
+			"Diameter" : 17.0,
+			"LeafArea" : 538.2
+		},
+		"Image229" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_229.png",
+			"Depth_Information" : "Depth_229.png",
+			"FreshWeightShoot" : 71.0,
+			"DryWeightShoot" : 3.69,
+			"Height" : 11.0,
+			"Diameter" : 21.0,
+			"LeafArea" : 1090.2
+		},
+		"Image365" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_365.png",
+			"Depth_Information" : "Depth_365.png",
+			"FreshWeightShoot" : 165.5,
+			"DryWeightShoot" : 7.22,
+			"Height" : 19.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 2064.9
+		},
+		"Image375" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_375.png",
+			"Depth_Information" : "Depth_375.png",
+			"FreshWeightShoot" : 251.9,
+			"DryWeightShoot" : 10.97,
+			"Height" : 16.0,
+			"Diameter" : 26.0,
+			"LeafArea" : 2820.6
+		},
+		"Image10" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_10.png",
+			"Depth_Information" : "Depth_10.png",
+			"FreshWeightShoot" : 1.4,
+			"DryWeightShoot" : 0.09,
+			"Height" : 5.1,
+			"Diameter" : 13.0,
+			"LeafArea" : 57.6
+		},
+		"Image93" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_93.png",
+			"Depth_Information" : "Depth_93.png",
+			"FreshWeightShoot" : 17.0,
+			"DryWeightShoot" : 1.24,
+			"Height" : 8.9,
+			"Diameter" : 21.0,
+			"LeafArea" : 562.2
+		},
+		"Image162" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_162.png",
+			"Depth_Information" : "Depth_162.png",
+			"FreshWeightShoot" : 60.4,
+			"DryWeightShoot" : 3.71,
+			"Height" : 12.5,
+			"Diameter" : 27.1,
+			"LeafArea" : 1769.8
+		},
+		"Image258" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_258.png",
+			"Depth_Information" : "Depth_258.png",
+			"FreshWeightShoot" : 145.4,
+			"DryWeightShoot" : 7.63,
+			"Height" : 15.5,
+			"Diameter" : 36.0,
+			"LeafArea" : 3005.8
+		},
+		"Image19" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_19.png",
+			"Depth_Information" : "Depth_19.png",
+			"FreshWeightShoot" : 3.0,
+			"DryWeightShoot" : 0.13,
+			"Height" : 5.4,
+			"Diameter" : 15.5,
+			"LeafArea" : 82.7
+		},
+		"Image54" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_54.png",
+			"Depth_Information" : "Depth_54.png",
+			"FreshWeightShoot" : 9.1,
+			"DryWeightShoot" : 0.77,
+			"Height" : 7.5,
+			"Diameter" : 18.3,
+			"LeafArea" : 210.9
+		},
+		"Image220" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_220.png",
+			"Depth_Information" : "Depth_220.png",
+			"FreshWeightShoot" : 107.0,
+			"DryWeightShoot" : 5.34,
+			"Height" : 14.0,
+			"Diameter" : 22.0,
+			"LeafArea" : 1600.6
+		},
+		"Image265" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_265.png",
+			"Depth_Information" : "Depth_265.png",
+			"FreshWeightShoot" : 223.2,
+			"DryWeightShoot" : 10.32,
+			"Height" : 20.5,
+			"Diameter" : 30.2,
+			"LeafArea" : 3261.9
+		},
+		"Image361" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_361.png",
+			"Depth_Information" : "Depth_361.png",
+			"FreshWeightShoot" : 292.4,
+			"DryWeightShoot" : 14.07,
+			"Height" : 22.0,
+			"Diameter" : 32.0,
+			"LeafArea" : 4991.0
+		},
+		"Image44" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_44.png",
+			"Depth_Information" : "Depth_44.png",
+			"FreshWeightShoot" : 6.5,
+			"DryWeightShoot" : 0.74,
+			"Height" : 5.3,
+			"Diameter" : 19.5,
+			"LeafArea" : 144.3
+		},
+		"Image55" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_55.png",
+			"Depth_Information" : "Depth_55.png",
+			"FreshWeightShoot" : 10.4,
+			"DryWeightShoot" : 0.88,
+			"Height" : 7.2,
+			"Diameter" : 16.5,
+			"LeafArea" : 234.2
+		},
+		"Image221" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_221.png",
+			"Depth_Information" : "Depth_221.png",
+			"FreshWeightShoot" : 178.0,
+			"DryWeightShoot" : 7.35,
+			"Height" : 17.0,
+			"Diameter" : 27.0,
+			"LeafArea" : 2716.4
+		},
+		"Image266" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_266.png",
+			"Depth_Information" : "Depth_266.png",
+			"FreshWeightShoot" : 245.6,
+			"DryWeightShoot" : 9.59,
+			"Height" : 22.0,
+			"Diameter" : 34.0,
+			"LeafArea" : 3698.7
+		},
+		"Image362" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_362.png",
+			"Depth_Information" : "Depth_362.png",
+			"FreshWeightShoot" : 336.0,
+			"DryWeightShoot" : 13.53,
+			"Height" : 24.0,
+			"Diameter" : 39.0,
+			"LeafArea" : 4429.8
+		},
+		"Image9" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_9.png",
+			"Depth_Information" : "Depth_9.png",
+			"FreshWeightShoot" : 2.5,
+			"DryWeightShoot" : 0.1,
+			"Height" : 4.3,
+			"Diameter" : 9.8,
+			"LeafArea" : 72.2
+		},
+		"Image29" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_29.png",
+			"Depth_Information" : "Depth_29.png",
+			"FreshWeightShoot" : 7.4,
+			"DryWeightShoot" : 0.63,
+			"Height" : 6.0,
+			"Diameter" : 14.0,
+			"LeafArea" : 177.6
+		},
+		"Image196" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_196.png",
+			"Depth_Information" : "Depth_196.png",
+			"FreshWeightShoot" : 78.0,
+			"DryWeightShoot" : 3.85,
+			"Height" : 11.0,
+			"Diameter" : 19.0,
+			"LeafArea" : 1115.6
+		},
+		"Image245" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_245.png",
+			"Depth_Information" : "Depth_245.png",
+			"FreshWeightShoot" : 179.9,
+			"DryWeightShoot" : 6.6,
+			"Height" : 17.0,
+			"Diameter" : 20.0,
+			"LeafArea" : 2612.8
+		},
+		"Image303" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_303.png",
+			"Depth_Information" : "Depth_303.png",
+			"FreshWeightShoot" : 218.5,
+			"DryWeightShoot" : 9.53,
+			"Height" : 18.0,
+			"Diameter" : 25.0,
+			"LeafArea" : 2803.8
+		},
+		"Image20" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_20.png",
+			"Depth_Information" : "Depth_20.png",
+			"FreshWeightShoot" : 4.5,
+			"DryWeightShoot" : 0.4,
+			"Height" : 8.5,
+			"Diameter" : 13.0,
+			"LeafArea" : 127.4
+		},
+		"Image31" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_31.png",
+			"Depth_Information" : "Depth_31.png",
+			"FreshWeightShoot" : 6.6,
+			"DryWeightShoot" : 0.58,
+			"Height" : 7.5,
+			"Diameter" : 14.6,
+			"LeafArea" : 159.3
+		},
+		"Image197" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_197.png",
+			"Depth_Information" : "Depth_197.png",
+			"FreshWeightShoot" : 127.0,
+			"DryWeightShoot" : 6.3,
+			"Height" : 12.0,
+			"Diameter" : 21.0,
+			"LeafArea" : 2110.5
+		},
+		"Image246" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_246.png",
+			"Depth_Information" : "Depth_246.png",
+			"FreshWeightShoot" : 224.1,
+			"DryWeightShoot" : 8.61,
+			"Height" : 15.0,
+			"Diameter" : 24.5,
+			"LeafArea" : 3777.1
+		},
+		"Image304" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_304.png",
+			"Depth_Information" : "Depth_304.png",
+			"FreshWeightShoot" : 206.8,
+			"DryWeightShoot" : 7.99,
+			"Height" : 18.0,
+			"Diameter" : 24.5,
+			"LeafArea" : 2604.8
+		},
+		"Image3" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_3.png",
+			"Depth_Information" : "Depth_3.png",
+			"FreshWeightShoot" : 2.0,
+			"DryWeightShoot" : 0.09,
+			"Height" : 7.5,
+			"Diameter" : 9.5,
+			"LeafArea" : 65.0
+		},
+		"Image127" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_127.png",
+			"Depth_Information" : "Depth_127.png",
+			"FreshWeightShoot" : 25.0,
+			"DryWeightShoot" : 1.39,
+			"Height" : 7.0,
+			"Diameter" : 19.1,
+			"LeafArea" : 599.7
+		},
+		"Image232" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_232.png",
+			"Depth_Information" : "Depth_232.png",
+			"FreshWeightShoot" : 95.0,
+			"DryWeightShoot" : 4.31,
+			"Height" : 11.0,
+			"Diameter" : 21.0,
+			"LeafArea" : 1500.6
+		},
+		"Image366" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_366.png",
+			"Depth_Information" : "Depth_366.png",
+			"FreshWeightShoot" : 279.4,
+			"DryWeightShoot" : 10.93,
+			"Height" : 19.0,
+			"Diameter" : 27.0,
+			"LeafArea" : 3177.1
+		},
+		"Image373" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_373.png",
+			"Depth_Information" : "Depth_373.png",
+			"FreshWeightShoot" : 161.3,
+			"DryWeightShoot" : 6.78,
+			"Height" : 18.0,
+			"Diameter" : 20.0,
+			"LeafArea" : 2027.4
+		},
+		"Image4" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_4.png",
+			"Depth_Information" : "Depth_4.png",
+			"FreshWeightShoot" : 2.7,
+			"DryWeightShoot" : 0.13,
+			"Height" : 6.0,
+			"Diameter" : 10.6,
+			"LeafArea" : 78.7
+		},
+		"Image128" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_128.png",
+			"Depth_Information" : "Depth_128.png",
+			"FreshWeightShoot" : 35.5,
+			"DryWeightShoot" : 2.12,
+			"Height" : 7.8,
+			"Diameter" : 18.3,
+			"LeafArea" : 735.8
+		},
+		"Image233" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_233.png",
+			"Depth_Information" : "Depth_233.png",
+			"FreshWeightShoot" : 93.0,
+			"DryWeightShoot" : 4.56,
+			"Height" : 11.0,
+			"Diameter" : 21.0,
+			"LeafArea" : 1568.5
+		},
+		"Image367" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_367.png",
+			"Depth_Information" : "Depth_367.png",
+			"FreshWeightShoot" : 253.9,
+			"DryWeightShoot" : 10.39,
+			"Height" : 21.5,
+			"Diameter" : 30.0,
+			"LeafArea" : 3154.7
+		},
+		"Image374" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_374.png",
+			"Depth_Information" : "Depth_374.png",
+			"FreshWeightShoot" : 257.6,
+			"DryWeightShoot" : 11.98,
+			"Height" : 20.5,
+			"Diameter" : 26.0,
+			"LeafArea" : 2894.0
+		},
+		"Image11" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_11.png",
+			"Depth_Information" : "Depth_11.png",
+			"FreshWeightShoot" : 2.0,
+			"DryWeightShoot" : 0.11,
+			"Height" : 5.6,
+			"Diameter" : 16.5,
+			"LeafArea" : 74.8
+		},
+		"Image95" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_95.png",
+			"Depth_Information" : "Depth_95.png",
+			"FreshWeightShoot" : 19.1,
+			"DryWeightShoot" : 1.28,
+			"Height" : 7.4,
+			"Diameter" : 22.3,
+			"LeafArea" : 569.3
+		},
+		"Image209" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_209.png",
+			"Depth_Information" : "Depth_209.png",
+			"FreshWeightShoot" : 85.0,
+			"DryWeightShoot" : 5.02,
+			"Height" : 8.0,
+			"Diameter" : 25.0,
+			"LeafArea" : 2008.8
+		},
+		"Image259" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_259.png",
+			"Depth_Information" : "Depth_259.png",
+			"FreshWeightShoot" : 182.9,
+			"DryWeightShoot" : 9.84,
+			"Height" : 13.5,
+			"Diameter" : 27.0,
+			"LeafArea" : 4013.5
+		},
+		"Image319" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_319.png",
+			"Depth_Information" : "Depth_319.png",
+			"FreshWeightShoot" : 254.6,
+			"DryWeightShoot" : 13.03,
+			"Height" : 17.0,
+			"Diameter" : 31.3,
+			"LeafArea" : 4964.8
+		},
+		"Image12" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_12.png",
+			"Depth_Information" : "Depth_12.png",
+			"FreshWeightShoot" : 2.2,
+			"DryWeightShoot" : 0.15,
+			"Height" : 7.1,
+			"Diameter" : 12.6,
+			"LeafArea" : 81.1
+		},
+		"Image96" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_96.png",
+			"Depth_Information" : "Depth_96.png",
+			"FreshWeightShoot" : 16.0,
+			"DryWeightShoot" : 1.56,
+			"Height" : 6.6,
+			"Diameter" : 18.6,
+			"LeafArea" : 470.8
+		},
+		"Image210" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_210.png",
+			"Depth_Information" : "Depth_210.png",
+			"FreshWeightShoot" : 64.0,
+			"DryWeightShoot" : 4.04,
+			"Height" : 12.0,
+			"Diameter" : 25.0,
+			"LeafArea" : 1568.2
+		},
+		"Image260" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_260.png",
+			"Depth_Information" : "Depth_260.png",
+			"FreshWeightShoot" : 128.3,
+			"DryWeightShoot" : 8.47,
+			"Height" : 15.0,
+			"Diameter" : 33.1,
+			"LeafArea" : 4006.5
+		},
+		"Image320" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_320.png",
+			"Depth_Information" : "Depth_320.png",
+			"FreshWeightShoot" : 172.0,
+			"DryWeightShoot" : 8.53,
+			"Height" : 12.2,
+			"Diameter" : 34.2,
+			"LeafArea" : 3059.6
+		},
+		"Image16" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_16.png",
+			"Depth_Information" : "Depth_16.png",
+			"FreshWeightShoot" : 3.8,
+			"DryWeightShoot" : 0.16,
+			"Height" : 9.6,
+			"Diameter" : 18.2,
+			"LeafArea" : 102.4
+		},
+		"Image102" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_102.png",
+			"Depth_Information" : "Depth_102.png",
+			"FreshWeightShoot" : 26.3,
+			"DryWeightShoot" : 1.99,
+			"Height" : 7.0,
+			"Diameter" : 18.0,
+			"LeafArea" : 509.9
+		},
+		"Image171" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_171.png",
+			"Depth_Information" : "Depth_171.png",
+			"FreshWeightShoot" : 53.9,
+			"DryWeightShoot" : 2.89,
+			"Height" : 12.4,
+			"Diameter" : 17.0,
+			"LeafArea" : 1133.6
+		},
+		"Image350" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_350.png",
+			"Depth_Information" : "Depth_350.png",
+			"FreshWeightShoot" : 414.2,
+			"DryWeightShoot" : 18.21,
+			"Height" : 22.0,
+			"Diameter" : 40.0,
+			"LeafArea" : 4891.7
+		},
+		"Image360" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_360.png",
+			"Depth_Information" : "Depth_360.png",
+			"FreshWeightShoot" : 352.5,
+			"DryWeightShoot" : 14.99,
+			"Height" : 23.0,
+			"Diameter" : 42.0,
+			"LeafArea" : 4960.8
+		},
+		"Image18" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_18.png",
+			"Depth_Information" : "Depth_18.png",
+			"FreshWeightShoot" : 3.1,
+			"DryWeightShoot" : 0.14,
+			"Height" : 6.2,
+			"Diameter" : 17.6,
+			"LeafArea" : 84.5
+		},
+		"Image103" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_103.png",
+			"Depth_Information" : "Depth_103.png",
+			"FreshWeightShoot" : 28.3,
+			"DryWeightShoot" : 1.89,
+			"Height" : 6.5,
+			"Diameter" : 21.6,
+			"LeafArea" : 554.1
+		},
+		"Image172" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_172.png",
+			"Depth_Information" : "Depth_172.png",
+			"FreshWeightShoot" : 28.6,
+			"DryWeightShoot" : 2.35,
+			"Height" : 9.5,
+			"Diameter" : 17.2,
+			"LeafArea" : 573.8
+		},
+		"Image352" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_352.png",
+			"Depth_Information" : "Depth_352.png",
+			"FreshWeightShoot" : 268.9,
+			"DryWeightShoot" : 11.77,
+			"Height" : 22.0,
+			"Diameter" : 33.2,
+			"LeafArea" : 5218.3
+		},
+		"Image363" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_363.png",
+			"Depth_Information" : "Depth_363.png",
+			"FreshWeightShoot" : 405.7,
+			"DryWeightShoot" : 16.71,
+			"Height" : 23.0,
+			"Diameter" : 40.0,
+			"LeafArea" : 5116.4
+		},
+		"Image56" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_56.png",
+			"Depth_Information" : "Depth_56.png",
+			"FreshWeightShoot" : 5.0,
+			"DryWeightShoot" : 0.48,
+			"Height" : 6.5,
+			"Diameter" : 14.4,
+			"LeafArea" : 135.7
+		},
+		"Image117" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_117.png",
+			"Depth_Information" : "Depth_117.png",
+			"FreshWeightShoot" : 20.4,
+			"DryWeightShoot" : 1.15,
+			"Height" : 6.8,
+			"Diameter" : 17.5,
+			"LeafArea" : 428.9
+		},
+		"Image190" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_190.png",
+			"Depth_Information" : "Depth_190.png",
+			"FreshWeightShoot" : 68.5,
+			"DryWeightShoot" : 2.95,
+			"Height" : 10.8,
+			"Diameter" : 21.4,
+			"LeafArea" : 1103.5
+		},
+		"Image377" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_377.png",
+			"Depth_Information" : "Depth_377.png",
+			"FreshWeightShoot" : 134.7,
+			"DryWeightShoot" : 6.28,
+			"Height" : 18.0,
+			"Diameter" : 19.0,
+			"LeafArea" : 1817.7
+		},
+		"Image384" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_384.png",
+			"Depth_Information" : "Depth_384.png",
+			"FreshWeightShoot" : 186.3,
+			"DryWeightShoot" : 8.36,
+			"Height" : 17.0,
+			"Diameter" : 30.0,
+			"LeafArea" : 4076.6
+		},
+		"Image57" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_57.png",
+			"Depth_Information" : "Depth_57.png",
+			"FreshWeightShoot" : 7.3,
+			"DryWeightShoot" : 0.5,
+			"Height" : 8.8,
+			"Diameter" : 10.3,
+			"LeafArea" : 191.2
+		},
+		"Image118" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_118.png",
+			"Depth_Information" : "Depth_118.png",
+			"FreshWeightShoot" : 23.0,
+			"DryWeightShoot" : 1.28,
+			"Height" : 7.0,
+			"Diameter" : 16.0,
+			"LeafArea" : 598.7
+		},
+		"Image191" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_191.png",
+			"Depth_Information" : "Depth_191.png",
+			"FreshWeightShoot" : 56.0,
+			"DryWeightShoot" : 2.49,
+			"Height" : 9.5,
+			"Diameter" : 21.7,
+			"LeafArea" : 986.2
+		},
+		"Image378" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_378.png",
+			"Depth_Information" : "Depth_378.png",
+			"FreshWeightShoot" : 175.4,
+			"DryWeightShoot" : 8.41,
+			"Height" : 19.5,
+			"Diameter" : 28.5,
+			"LeafArea" : 2685.1
+		},
+		"Image385" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_385.png",
+			"Depth_Information" : "Depth_385.png",
+			"FreshWeightShoot" : 167.1,
+			"DryWeightShoot" : 8.33,
+			"Height" : 17.3,
+			"Diameter" : 26.0,
+			"LeafArea" : 2633.9
+		},
+		"Image6" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_6.png",
+			"Depth_Information" : "Depth_6.png",
+			"FreshWeightShoot" : 3.3,
+			"DryWeightShoot" : 0.14,
+			"Height" : 8.4,
+			"Diameter" : 13.4,
+			"LeafArea" : 107.8
+		},
+		"Image81" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_81.png",
+			"Depth_Information" : "Depth_81.png",
+			"FreshWeightShoot" : 23.2,
+			"DryWeightShoot" : 1.6,
+			"Height" : 8.1,
+			"Diameter" : 17.1,
+			"LeafArea" : 492.9
+		},
+		"Image200" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_200.png",
+			"Depth_Information" : "Depth_200.png",
+			"FreshWeightShoot" : 101.0,
+			"DryWeightShoot" : 5.03,
+			"Height" : 12.0,
+			"Diameter" : 22.0,
+			"LeafArea" : 1838.7
+		},
+		"Image295" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_295.png",
+			"Depth_Information" : "Depth_295.png",
+			"FreshWeightShoot" : 193.4,
+			"DryWeightShoot" : 9.99,
+			"Height" : 17.0,
+			"Diameter" : 23.5,
+			"LeafArea" : 2067.2
+		},
+		"Image298" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_298.png",
+			"Depth_Information" : "Depth_298.png",
+			"FreshWeightShoot" : 315.8,
+			"DryWeightShoot" : 12.95,
+			"Height" : 15.0,
+			"Diameter" : 30.0,
+			"LeafArea" : 5069.1
+		},
+		"Image7" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_7.png",
+			"Depth_Information" : "Depth_7.png",
+			"FreshWeightShoot" : 3.3,
+			"DryWeightShoot" : 0.15,
+			"Height" : 7.1,
+			"Diameter" : 13.0,
+			"LeafArea" : 96.5
+		},
+		"Image82" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_82.png",
+			"Depth_Information" : "Depth_82.png",
+			"FreshWeightShoot" : 34.6,
+			"DryWeightShoot" : 2.13,
+			"Height" : 8.2,
+			"Diameter" : 18.0,
+			"LeafArea" : 642.5
+		},
+		"Image201" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_201.png",
+			"Depth_Information" : "Depth_201.png",
+			"FreshWeightShoot" : 117.0,
+			"DryWeightShoot" : 5.07,
+			"Height" : 13.0,
+			"Diameter" : 21.0,
+			"LeafArea" : 1889.2
+		},
+		"Image297" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_297.png",
+			"Depth_Information" : "Depth_297.png",
+			"FreshWeightShoot" : 227.8,
+			"DryWeightShoot" : 10.07,
+			"Height" : 17.0,
+			"Diameter" : 29.0,
+			"LeafArea" : 2648.4
+		},
+		"Image299" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_299.png",
+			"Depth_Information" : "Depth_299.png",
+			"FreshWeightShoot" : 300.0,
+			"DryWeightShoot" : 11.24,
+			"Height" : 15.0,
+			"Diameter" : 29.0,
+			"LeafArea" : 3646.3
+		},
+		"Image13" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_13.png",
+			"Depth_Information" : "Depth_13.png",
+			"FreshWeightShoot" : 2.2,
+			"DryWeightShoot" : 0.13,
+			"Height" : 10.1,
+			"Diameter" : 13.6,
+			"LeafArea" : 82.1
+		},
+		"Image99" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_99.png",
+			"Depth_Information" : "Depth_99.png",
+			"FreshWeightShoot" : 27.3,
+			"DryWeightShoot" : 1.91,
+			"Height" : 6.5,
+			"Diameter" : 24.5,
+			"LeafArea" : 773.2
+		},
+		"Image215" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_215.png",
+			"Depth_Information" : "Depth_215.png",
+			"FreshWeightShoot" : 90.0,
+			"DryWeightShoot" : 4.94,
+			"Height" : 10.5,
+			"Diameter" : 27.0,
+			"LeafArea" : 2804.1
+		},
+		"Image324" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_324.png",
+			"Depth_Information" : "Depth_324.png",
+			"FreshWeightShoot" : 179.9,
+			"DryWeightShoot" : 10.56,
+			"Height" : 12.0,
+			"Diameter" : 37.0,
+			"LeafArea" : 3626.7
+		},
+		"Image326" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_326.png",
+			"Depth_Information" : "Depth_326.png",
+			"FreshWeightShoot" : 165.6,
+			"DryWeightShoot" : 9.41,
+			"Height" : 15.0,
+			"Diameter" : 27.5,
+			"LeafArea" : 3218.9
+		},
+		"Image14" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_14.png",
+			"Depth_Information" : "Depth_14.png",
+			"FreshWeightShoot" : 2.4,
+			"DryWeightShoot" : 0.14,
+			"Height" : 5.6,
+			"Diameter" : 13.1,
+			"LeafArea" : 87.5
+		},
+		"Image148" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_148.png",
+			"Depth_Information" : "Depth_148.png",
+			"FreshWeightShoot" : 63.2,
+			"DryWeightShoot" : 3.75,
+			"Height" : 11.3,
+			"Diameter" : 24.2,
+			"LeafArea" : 1721.5
+		},
+		"Image216" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_216.png",
+			"Depth_Information" : "Depth_216.png",
+			"FreshWeightShoot" : 74.0,
+			"DryWeightShoot" : 4.41,
+			"Height" : 10.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 1928.0
+		},
+		"Image325" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_325.png",
+			"Depth_Information" : "Depth_325.png",
+			"FreshWeightShoot" : 259.4,
+			"DryWeightShoot" : 12.56,
+			"Height" : 17.1,
+			"Diameter" : 34.0,
+			"LeafArea" : 5194.0
+		},
+		"Image327" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_327.png",
+			"Depth_Information" : "Depth_327.png",
+			"FreshWeightShoot" : 158.3,
+			"DryWeightShoot" : 7.88,
+			"Height" : 15.0,
+			"Diameter" : 33.0,
+			"LeafArea" : 3358.8
+		},
+		"Image45" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_45.png",
+			"Depth_Information" : "Depth_45.png",
+			"FreshWeightShoot" : 8.4,
+			"DryWeightShoot" : 0.83,
+			"Height" : 6.0,
+			"Diameter" : 17.5,
+			"LeafArea" : 191.4
+		},
+		"Image105" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_105.png",
+			"Depth_Information" : "Depth_105.png",
+			"FreshWeightShoot" : 34.0,
+			"DryWeightShoot" : 2.1,
+			"Height" : 8.7,
+			"Diameter" : 19.3,
+			"LeafArea" : 480.4
+		},
+		"Image179" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_179.png",
+			"Depth_Information" : "Depth_179.png",
+			"FreshWeightShoot" : 88.1,
+			"DryWeightShoot" : 4.68,
+			"Height" : 11.2,
+			"Diameter" : 19.5,
+			"LeafArea" : 1646.4
+		},
+		"Image343" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_343.png",
+			"Depth_Information" : "Depth_343.png",
+			"FreshWeightShoot" : 406.0,
+			"DryWeightShoot" : 15.97,
+			"Height" : 25.0,
+			"Diameter" : 30.0,
+			"LeafArea" : 5379.9
+		},
+		"Image358" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_358.png",
+			"Depth_Information" : "Depth_358.png",
+			"FreshWeightShoot" : 309.1,
+			"DryWeightShoot" : 13.61,
+			"Height" : 19.5,
+			"Diameter" : 34.0,
+			"LeafArea" : 5136.8
+		},
+		"Image21" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_21.png",
+			"Depth_Information" : "Depth_21.png",
+			"FreshWeightShoot" : 7.8,
+			"DryWeightShoot" : 0.7,
+			"Height" : 7.9,
+			"Diameter" : 13.0,
+			"LeafArea" : 178.0
+		},
+		"Image71" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_71.png",
+			"Depth_Information" : "Depth_71.png",
+			"FreshWeightShoot" : 22.8,
+			"DryWeightShoot" : 1.54,
+			"Height" : 6.2,
+			"Diameter" : 16.5,
+			"LeafArea" : 469.6
+		},
+		"Image145" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_145.png",
+			"Depth_Information" : "Depth_145.png",
+			"FreshWeightShoot" : 86.2,
+			"DryWeightShoot" : 3.54,
+			"Height" : 13.3,
+			"Diameter" : 22.3,
+			"LeafArea" : 1399.8
+		},
+		"Image291" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_291.png",
+			"Depth_Information" : "Depth_291.png",
+			"FreshWeightShoot" : 180.9,
+			"DryWeightShoot" : 9.35,
+			"Height" : 13.0,
+			"Diameter" : 21.0,
+			"LeafArea" : 2056.1
+		},
+		"Image305" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_305.png",
+			"Depth_Information" : "Depth_305.png",
+			"FreshWeightShoot" : 335.8,
+			"DryWeightShoot" : 9.93,
+			"Height" : 17.0,
+			"Diameter" : 26.0,
+			"LeafArea" : 3077.6
+		},
+		"Image58" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_58.png",
+			"Depth_Information" : "Depth_58.png",
+			"FreshWeightShoot" : 4.0,
+			"DryWeightShoot" : 0.32,
+			"Height" : 6.2,
+			"Diameter" : 13.5,
+			"LeafArea" : 129.8
+		},
+		"Image121" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_121.png",
+			"Depth_Information" : "Depth_121.png",
+			"FreshWeightShoot" : 21.1,
+			"DryWeightShoot" : 1.4,
+			"Height" : 6.2,
+			"Diameter" : 17.1,
+			"LeafArea" : 428.0
+		},
+		"Image234" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_234.png",
+			"Depth_Information" : "Depth_234.png",
+			"FreshWeightShoot" : 104.0,
+			"DryWeightShoot" : 4.75,
+			"Height" : 11.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 2059.2
+		},
+		"Image370" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_370.png",
+			"Depth_Information" : "Depth_370.png",
+			"FreshWeightShoot" : 308.3,
+			"DryWeightShoot" : 12.81,
+			"Height" : 16.0,
+			"Diameter" : 26.5,
+			"LeafArea" : 3346.6
+		},
+		"Image383" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_383.png",
+			"Depth_Information" : "Depth_383.png",
+			"FreshWeightShoot" : 206.0,
+			"DryWeightShoot" : 8.41,
+			"Height" : 18.0,
+			"Diameter" : 22.0,
+			"LeafArea" : 2742.8
+		},
+		"Image33" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_33.png",
+			"Depth_Information" : "Depth_33.png",
+			"FreshWeightShoot" : 3.8,
+			"DryWeightShoot" : 0.45,
+			"Height" : 5.5,
+			"Diameter" : 16.8,
+			"LeafArea" : 139.5
+		},
+		"Image85" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_85.png",
+			"Depth_Information" : "Depth_85.png",
+			"FreshWeightShoot" : 17.9,
+			"DryWeightShoot" : 1.47,
+			"Height" : 6.1,
+			"Diameter" : 16.5,
+			"LeafArea" : 465.3
+		},
+		"Image163" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_163.png",
+			"Depth_Information" : "Depth_163.png",
+			"FreshWeightShoot" : 57.6,
+			"DryWeightShoot" : 0.36,
+			"Height" : 9.8,
+			"Diameter" : 25.3,
+			"LeafArea" : 1451.8
+		},
+		"Image315" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_315.png",
+			"Depth_Information" : "Depth_315.png",
+			"FreshWeightShoot" : 207.7,
+			"DryWeightShoot" : 11.0,
+			"Height" : 15.0,
+			"Diameter" : 30.5,
+			"LeafArea" : 3928.0
+		},
+		"Image331" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_331.png",
+			"Depth_Information" : "Depth_331.png",
+			"FreshWeightShoot" : 226.4,
+			"DryWeightShoot" : 11.13,
+			"Height" : 13.0,
+			"Diameter" : 34.0,
+			"LeafArea" : 4457.2
+		},
+		"Image17" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_17.png",
+			"Depth_Information" : "Depth_17.png",
+			"FreshWeightShoot" : 2.8,
+			"DryWeightShoot" : 0.12,
+			"Height" : 5.0,
+			"Diameter" : 14.5,
+			"LeafArea" : 67.2
+		},
+		"Image46" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_46.png",
+			"Depth_Information" : "Depth_46.png",
+			"FreshWeightShoot" : 5.5,
+			"DryWeightShoot" : 0.56,
+			"Height" : 6.5,
+			"Diameter" : 20.8,
+			"LeafArea" : 133.3
+		},
+		"Image51" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_51.png",
+			"Depth_Information" : "Depth_51.png",
+			"FreshWeightShoot" : 8.3,
+			"DryWeightShoot" : 0.65,
+			"Height" : 8.0,
+			"Diameter" : 15.0,
+			"LeafArea" : 201.3
+		},
+		"Image169" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_169.png",
+			"Depth_Information" : "Depth_169.png",
+			"FreshWeightShoot" : 54.6,
+			"DryWeightShoot" : 2.77,
+			"Height" : 13.5,
+			"Diameter" : 16.1,
+			"LeafArea" : 1037.0
+		},
+		"Image175" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_175.png",
+			"Depth_Information" : "Depth_175.png",
+			"FreshWeightShoot" : 70.1,
+			"DryWeightShoot" : 3.36,
+			"Height" : 14.5,
+			"Diameter" : 22.2,
+			"LeafArea" : 1301.1
+		},
+		"Image261" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_261.png",
+			"Depth_Information" : "Depth_261.png",
+			"FreshWeightShoot" : 121.0,
+			"DryWeightShoot" : 6.12,
+			"Height" : 22.0,
+			"Diameter" : 27.5,
+			"LeafArea" : 1994.0
+		},
+		"Image344" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_344.png",
+			"Depth_Information" : "Depth_344.png",
+			"FreshWeightShoot" : 347.6,
+			"DryWeightShoot" : 16.46,
+			"Height" : 22.0,
+			"Diameter" : 29.0,
+			"LeafArea" : 4117.0
+		},
+		"Image345" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_345.png",
+			"Depth_Information" : "Depth_345.png",
+			"FreshWeightShoot" : 459.7,
+			"DryWeightShoot" : 16.64,
+			"Height" : 25.0,
+			"Diameter" : 32.0,
+			"LeafArea" : 5316.5
+		},
+		"Image349" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_349.png",
+			"Depth_Information" : "Depth_349.png",
+			"FreshWeightShoot" : 436.8,
+			"DryWeightShoot" : 20.1,
+			"Height" : 23.5,
+			"Diameter" : 29.5,
+			"LeafArea" : 5163.4
+		},
+		"Image355" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_355.png",
+			"Depth_Information" : "Depth_355.png",
+			"FreshWeightShoot" : 276.3,
+			"DryWeightShoot" : 14.48,
+			"Height" : 21.3,
+			"Diameter" : 31.5,
+			"LeafArea" : 3440.3
+		},
+		"Image357" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_357.png",
+			"Depth_Information" : "Depth_357.png",
+			"FreshWeightShoot" : 314.0,
+			"DryWeightShoot" : 15.84,
+			"Height" : 18.0,
+			"Diameter" : 32.5,
+			"LeafArea" : 4260.7
+		},
+		"Image359" : {
+			"Variety" : "Aphylion",
+			"RGB_Image" : "RGB_359.png",
+			"Depth_Information" : "Depth_359.png",
+			"FreshWeightShoot" : 371.0,
+			"DryWeightShoot" : 15.41,
+			"Height" : 20.5,
+			"Diameter" : 37.0,
+			"LeafArea" : 5868.0
+		},
+		"Image8" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_8.png",
+			"Depth_Information" : "Depth_8.png",
+			"FreshWeightShoot" : 2.5,
+			"DryWeightShoot" : 0.1,
+			"Height" : 8.3,
+			"Diameter" : 12.2,
+			"LeafArea" : 79.8
+		},
+		"Image23" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_23.png",
+			"Depth_Information" : "Depth_23.png",
+			"FreshWeightShoot" : 6.0,
+			"DryWeightShoot" : 0.53,
+			"Height" : 8.5,
+			"Diameter" : 15.5,
+			"LeafArea" : 154.2
+		},
+		"Image30" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_30.png",
+			"Depth_Information" : "Depth_30.png",
+			"FreshWeightShoot" : 9.8,
+			"DryWeightShoot" : 0.75,
+			"Height" : 6.5,
+			"Diameter" : 16.3,
+			"LeafArea" : 214.5
+		},
+		"Image75" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_75.png",
+			"Depth_Information" : "Depth_75.png",
+			"FreshWeightShoot" : 28.8,
+			"DryWeightShoot" : 1.83,
+			"Height" : 7.0,
+			"Diameter" : 20.0,
+			"LeafArea" : 581.9
+		},
+		"Image134" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_134.png",
+			"Depth_Information" : "Depth_134.png",
+			"FreshWeightShoot" : 75.9,
+			"DryWeightShoot" : 4.17,
+			"Height" : 9.3,
+			"Diameter" : 23.2,
+			"LeafArea" : 1228.3
+		},
+		"Image205" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_205.png",
+			"Depth_Information" : "Depth_205.png",
+			"FreshWeightShoot" : 161.0,
+			"DryWeightShoot" : 6.4,
+			"Height" : 13.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 2010.9
+		},
+		"Image241" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_241.png",
+			"Depth_Information" : "Depth_241.png",
+			"FreshWeightShoot" : 240.0,
+			"DryWeightShoot" : 9.48,
+			"Height" : 16.0,
+			"Diameter" : 25.0,
+			"LeafArea" : 2705.0
+		},
+		"Image244" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_244.png",
+			"Depth_Information" : "Depth_244.png",
+			"FreshWeightShoot" : 193.1,
+			"DryWeightShoot" : 9.31,
+			"Height" : 16.4,
+			"Diameter" : 24.0,
+			"LeafArea" : 2715.4
+		},
+		"Image247" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_247.png",
+			"Depth_Information" : "Depth_247.png",
+			"FreshWeightShoot" : 125.8,
+			"DryWeightShoot" : 7.17,
+			"Height" : 13.5,
+			"Diameter" : 20.0,
+			"LeafArea" : 1957.0
+		},
+		"Image249" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_249.png",
+			"Depth_Information" : "Depth_249.png",
+			"FreshWeightShoot" : 173.6,
+			"DryWeightShoot" : 7.54,
+			"Height" : 14.8,
+			"Diameter" : 23.1,
+			"LeafArea" : 3278.3
+		},
+		"Image290" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_290.png",
+			"Depth_Information" : "Depth_290.png",
+			"FreshWeightShoot" : 282.8,
+			"DryWeightShoot" : 10.67,
+			"Height" : 16.0,
+			"Diameter" : 27.0,
+			"LeafArea" : 2741.1
+		},
+		"Image306" : {
+			"Variety" : "Lugano",
+			"RGB_Image" : "RGB_306.png",
+			"Depth_Information" : "Depth_306.png",
+			"FreshWeightShoot" : 395.9,
+			"DryWeightShoot" : 15.96,
+			"Height" : 18.0,
+			"Diameter" : 31.0,
+			"LeafArea" : 3896.4
+		},
+		"Image2" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_2.png",
+			"Depth_Information" : "Depth_2.png",
+			"FreshWeightShoot" : 2.1,
+			"DryWeightShoot" : 0.1,
+			"Height" : 8.5,
+			"Diameter" : 8.2,
+			"LeafArea" : 67.4
+		},
+		"Image62" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_62.png",
+			"Depth_Information" : "Depth_62.png",
+			"FreshWeightShoot" : 6.0,
+			"DryWeightShoot" : 0.43,
+			"Height" : 6.0,
+			"Diameter" : 13.9,
+			"LeafArea" : 175.5
+		},
+		"Image66" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_66.png",
+			"Depth_Information" : "Depth_66.png",
+			"FreshWeightShoot" : 4.6,
+			"DryWeightShoot" : 0.37,
+			"Height" : 7.0,
+			"Diameter" : 10.6,
+			"LeafArea" : 138.1
+		},
+		"Image120" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_120.png",
+			"Depth_Information" : "Depth_120.png",
+			"FreshWeightShoot" : 17.1,
+			"DryWeightShoot" : 1.08,
+			"Height" : 7.1,
+			"Diameter" : 17.0,
+			"LeafArea" : 407.2
+		},
+		"Image124" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_124.png",
+			"Depth_Information" : "Depth_124.png",
+			"FreshWeightShoot" : 23.0,
+			"DryWeightShoot" : 1.36,
+			"Height" : 8.0,
+			"Diameter" : 19.6,
+			"LeafArea" : 526.1
+		},
+		"Image130" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_130.png",
+			"Depth_Information" : "Depth_130.png",
+			"FreshWeightShoot" : 30.6,
+			"DryWeightShoot" : 1.68,
+			"Height" : 8.4,
+			"Diameter" : 18.0,
+			"LeafArea" : 689.2
+		},
+		"Image193" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_193.png",
+			"Depth_Information" : "Depth_193.png",
+			"FreshWeightShoot" : 74.0,
+			"DryWeightShoot" : 3.63,
+			"Height" : 9.0,
+			"Diameter" : 24.2,
+			"LeafArea" : 1153.4
+		},
+		"Image235" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_235.png",
+			"Depth_Information" : "Depth_235.png",
+			"FreshWeightShoot" : 91.0,
+			"DryWeightShoot" : 4.15,
+			"Height" : 11.0,
+			"Diameter" : 23.0,
+			"LeafArea" : 1329.4
+		},
+		"Image273" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_273.png",
+			"Depth_Information" : "Depth_273.png",
+			"FreshWeightShoot" : 143.0,
+			"DryWeightShoot" : 6.44,
+			"Height" : 16.5,
+			"Diameter" : 25.0,
+			"LeafArea" : 1997.9
+		},
+		"Image276" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_276.png",
+			"Depth_Information" : "Depth_276.png",
+			"FreshWeightShoot" : 119.9,
+			"DryWeightShoot" : 5.41,
+			"Height" : 16.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 1707.4
+		},
+		"Image278" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_278.png",
+			"Depth_Information" : "Depth_278.png",
+			"FreshWeightShoot" : 137.2,
+			"DryWeightShoot" : 6.71,
+			"Height" : 18.3,
+			"Diameter" : 27.0,
+			"LeafArea" : 1881.5
+		},
+		"Image282" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_282.png",
+			"Depth_Information" : "Depth_282.png",
+			"FreshWeightShoot" : 125.1,
+			"DryWeightShoot" : 6.0,
+			"Height" : 15.0,
+			"Diameter" : 24.0,
+			"LeafArea" : 1977.0
+		},
+		"Image380" : {
+			"Variety" : "Satine",
+			"RGB_Image" : "RGB_380.png",
+			"Depth_Information" : "Depth_380.png",
+			"FreshWeightShoot" : 186.2,
+			"DryWeightShoot" : 8.34,
+			"Height" : 17.5,
+			"Diameter" : 27.5,
+			"LeafArea" : 2499.0
+		},
+		"Image32" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_32.png",
+			"Depth_Information" : "Depth_32.png",
+			"FreshWeightShoot" : 7.3,
+			"DryWeightShoot" : 0.88,
+			"Height" : 7.7,
+			"Diameter" : 20.0,
+			"LeafArea" : 260.2
+		},
+		"Image39" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_39.png",
+			"Depth_Information" : "Depth_39.png",
+			"FreshWeightShoot" : 7.4,
+			"DryWeightShoot" : 0.64,
+			"Height" : 7.5,
+			"Diameter" : 19.4,
+			"LeafArea" : 242.7
+		},
+		"Image40" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_40.png",
+			"Depth_Information" : "Depth_40.png",
+			"FreshWeightShoot" : 4.2,
+			"DryWeightShoot" : 0.43,
+			"Height" : 7.0,
+			"Diameter" : 17.5,
+			"LeafArea" : 149.6
+		},
+		"Image88" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_88.png",
+			"Depth_Information" : "Depth_88.png",
+			"FreshWeightShoot" : 21.1,
+			"DryWeightShoot" : 1.76,
+			"Height" : 5.7,
+			"Diameter" : 21.5,
+			"LeafArea" : 620.8
+		},
+		"Image89" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_89.png",
+			"Depth_Information" : "Depth_89.png",
+			"FreshWeightShoot" : 22.6,
+			"DryWeightShoot" : 1.6,
+			"Height" : 8.7,
+			"Diameter" : 23.4,
+			"LeafArea" : 696.1
+		},
+		"Image90" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_90.png",
+			"Depth_Information" : "Depth_90.png",
+			"FreshWeightShoot" : 28.9,
+			"DryWeightShoot" : 1.94,
+			"Height" : 7.0,
+			"Diameter" : 22.0,
+			"LeafArea" : 902.4
+		},
+		"Image161" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_161.png",
+			"Depth_Information" : "Depth_161.png",
+			"FreshWeightShoot" : 50.4,
+			"DryWeightShoot" : 2.81,
+			"Height" : 10.3,
+			"Diameter" : 24.3,
+			"LeafArea" : 1214.1
+		},
+		"Image207" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_207.png",
+			"Depth_Information" : "Depth_207.png",
+			"FreshWeightShoot" : 55.0,
+			"DryWeightShoot" : 3.88,
+			"Height" : 10.0,
+			"Diameter" : 23.0,
+			"LeafArea" : 1445.9
+		},
+		"Image252" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_252.png",
+			"Depth_Information" : "Depth_252.png",
+			"FreshWeightShoot" : 128.7,
+			"DryWeightShoot" : 7.18,
+			"Height" : 12.9,
+			"Diameter" : 28.4,
+			"LeafArea" : 2593.7
+		},
+		"Image314" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_314.png",
+			"Depth_Information" : "Depth_314.png",
+			"FreshWeightShoot" : 167.7,
+			"DryWeightShoot" : 7.8,
+			"Height" : 15.0,
+			"Diameter" : 28.0,
+			"LeafArea" : 2918.4
+		},
+		"Image316" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_316.png",
+			"Depth_Information" : "Depth_316.png",
+			"FreshWeightShoot" : 220.9,
+			"DryWeightShoot" : 12.13,
+			"Height" : 15.0,
+			"Diameter" : 29.0,
+			"LeafArea" : 3986.3
+		},
+		"Image321" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_321.png",
+			"Depth_Information" : "Depth_321.png",
+			"FreshWeightShoot" : 216.6,
+			"DryWeightShoot" : 11.55,
+			"Height" : 16.0,
+			"Diameter" : 34.0,
+			"LeafArea" : 4143.9
+		},
+		"Image337" : {
+			"Variety" : "Salanova",
+			"RGB_Image" : "RGB_337.png",
+			"Depth_Information" : "Depth_337.png",
+			"FreshWeightShoot" : 279.4,
+			"DryWeightShoot" : 12.87,
+			"Height" : 16.0,
+			"Diameter" : 30.1,
+			"LeafArea" : 4226.5
+		}
+	}
+}

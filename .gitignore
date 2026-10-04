@@ -1,16 +1,28 @@
-# Whitelist: repo contains only the raw dataset, ground-truth CSV and best models
+# Whitelist: dataset, pipeline code, split, model code and best models only
 /*
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/requirements.txt
+!/remove_background.py
+!/resize_dataset.py
+!/run_augmentation.py
+!/preview_augmentation.py
+
+!/training/
+/training/__pycache__/
 
 !/dataset/
 /dataset/*
 !/dataset/RGBImages/
+!/dataset/binary_masks/
+!/dataset/split/
+!/dataset/GroundTruth_All_388_Images.json
 !/dataset/GroundTruth_All_388_Images.csv
 
 !/results/
 /results/*
+!/results/normalization_params.json
 !/results/onnx/
 !/results/regression/
 /results/regression/*

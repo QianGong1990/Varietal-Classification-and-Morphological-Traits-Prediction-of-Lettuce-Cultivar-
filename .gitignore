@@ -36,3 +36,4 @@
 !/results/classification/model_weights/
 /results/classification/model_weights/*
 !/results/classification/model_weights/SimpleCNN_segmented_best.pth
+/training/submit_*.sh

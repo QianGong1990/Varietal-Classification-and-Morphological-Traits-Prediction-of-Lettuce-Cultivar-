@@ -97,8 +97,7 @@ python -m training.run_classification_all          # cultivar classification
 python -m training.kfold                           # 5-fold cross-validation
 python -m training.ml_baselines                    # classical ML baselines
 ```
-`training/submit_*.sh` are the SLURM scripts used on an H100 GPU node; edit the
-e-mail and conda environment before use.
+Training was run on a single NVIDIA H100 GPU.
 
 ## Using a best model
 ```python
